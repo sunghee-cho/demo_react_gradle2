@@ -1,0 +1,1310 @@
+2024-07-10 17:00:23,726 DEBUG c.z.h.p.HikariPool [HikariPool-7 housekeeper] HikariPool-7 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:00:23,727 DEBUG c.z.h.p.HikariPool [HikariPool-7 housekeeper] HikariPool-7 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:00:42,510 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-10 17:00:42,512 INFO o.a.j.l.DirectJDKLog [Thread-27] Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:00:42,514 INFO s.EmitterRepository [http-nio-8080-exec-3] Deleted SseEmitter for 5
+2024-07-10 17:00:42,514 INFO s.EmitterRepository [http-nio-8080-exec-1] Deleted SseEmitter for 3
+2024-07-10 17:00:42,514 INFO s.EmitterRepository [http-nio-8080-exec-4] Deleted SseEmitter for 1
+2024-07-10 17:00:42,514 INFO s.EmitterRepository [http-nio-8080-exec-10] Deleted SseEmitter for 1
+2024-07-10 17:00:42,514 INFO s.EmitterRepository [http-nio-8080-exec-2] Deleted SseEmitter for 1
+2024-07-10 17:00:42,514 INFO s.EmitterRepository [http-nio-8080-exec-5] Deleted SseEmitter for 5
+2024-07-10 17:00:42,514 INFO s.EmitterRepository [http-nio-8080-exec-7] Deleted SseEmitter for 1
+2024-07-10 17:00:42,516 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-5] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:00:42,516 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-7] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:00:42,516 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-10] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:00:42,516 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-1] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:00:42,516 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-4] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:00:42,517 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:00:42,517 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:00:42,517 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:00:42,517 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:00:42,517 INFO s.EmitterRepository [http-nio-8080-exec-1] Deleted SseEmitter for 3
+2024-07-10 17:00:42,517 INFO s.EmitterRepository [http-nio-8080-exec-7] Deleted SseEmitter for 1
+2024-07-10 17:00:42,516 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-3] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:00:42,517 INFO s.EmitterRepository [http-nio-8080-exec-4] Deleted SseEmitter for 1
+2024-07-10 17:00:42,517 INFO s.EmitterRepository [http-nio-8080-exec-10] Deleted SseEmitter for 1
+2024-07-10 17:00:42,516 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-2] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:00:42,517 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:00:42,517 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:00:42,518 INFO s.EmitterRepository [http-nio-8080-exec-3] Deleted SseEmitter for 5
+2024-07-10 17:00:42,518 INFO s.EmitterRepository [http-nio-8080-exec-5] Deleted SseEmitter for 5
+2024-07-10 17:00:42,518 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:00:42,518 INFO s.EmitterRepository [http-nio-8080-exec-2] Deleted SseEmitter for 1
+2024-07-10 17:00:42,762 INFO c.z.h.HikariDataSource [Thread-27] HikariPool-7 - Shutdown initiated...
+2024-07-10 17:00:42,763 DEBUG c.z.h.p.HikariPool [Thread-27] HikariPool-7 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:00:42,764 DEBUG c.z.h.p.PoolBase [HikariPool-7 connection closer] HikariPool-7 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@29c50892: (connection evicted)
+2024-07-10 17:00:42,765 DEBUG c.z.h.p.PoolBase [HikariPool-7 connection closer] HikariPool-7 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@389b6f1e: (connection evicted)
+2024-07-10 17:00:42,766 DEBUG c.z.h.p.PoolBase [HikariPool-7 connection closer] HikariPool-7 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@79a66525: (connection evicted)
+2024-07-10 17:00:42,766 DEBUG c.z.h.p.PoolBase [HikariPool-7 connection closer] HikariPool-7 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4895dde8: (connection evicted)
+2024-07-10 17:00:42,766 DEBUG c.z.h.p.PoolBase [HikariPool-7 connection closer] HikariPool-7 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@19899a6a: (connection evicted)
+2024-07-10 17:00:42,767 DEBUG c.z.h.p.PoolBase [HikariPool-7 connection closer] HikariPool-7 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@79a6a4be: (connection evicted)
+2024-07-10 17:00:42,767 DEBUG c.z.h.p.PoolBase [HikariPool-7 connection closer] HikariPool-7 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1dc76752: (connection evicted)
+2024-07-10 17:00:42,768 DEBUG c.z.h.p.PoolBase [HikariPool-7 connection closer] HikariPool-7 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1c7eb28a: (connection evicted)
+2024-07-10 17:00:42,768 DEBUG c.z.h.p.PoolBase [HikariPool-7 connection closer] HikariPool-7 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3515a014: (connection evicted)
+2024-07-10 17:00:42,768 DEBUG c.z.h.p.PoolBase [HikariPool-7 connection closer] HikariPool-7 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@78726a7: (connection evicted)
+2024-07-10 17:00:42,769 DEBUG c.z.h.p.HikariPool [Thread-27] HikariPool-7 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-07-10 17:00:42,769 INFO c.z.h.HikariDataSource [Thread-27] HikariPool-7 - Shutdown completed.
+2024-07-10 17:00:42,870 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 17.0.11 with PID 3504 (C:\backup\workspace_sts4\demo_gradle\bin\main started by Notebook9 in C:\backup\workspace_sts4\demo_gradle)
+2024-07-10 17:00:42,870 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "local"
+2024-07-10 17:00:43,066 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-10 17:00:43,069 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2024-07-10 17:00:43,232 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-07-10 17:00:43,233 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:00:43,233 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-07-10 17:00:43,233 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 17:00:43,352 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-07-10 17:00:43,356 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-10 17:00:43,356 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 484 ms
+2024-07-10 17:00:43,415 DEBUG c.z.h.HikariConfig [restartedMain] Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2a07190d
+2024-07-10 17:00:43,564 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2024-07-10 17:00:43,712 INFO l.LogbackLoggerAOP [restartedMain] [[START]]upload.MyPathConfig.addResourceHandlers() <=================
+2024-07-10 17:00:43,712 INFO l.LogbackLoggerAOP [restartedMain] Argument/Parameter : [org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry@449482ba]
+2024-07-10 17:00:43,713 INFO l.LogbackLoggerAOP [restartedMain] ================[[END : addResourceHandlers()]]==================
+2024-07-10 17:00:43,874 DEBUG c.z.h.HikariConfig [restartedMain] HikariPool-8 - configuration:
+2024-07-10 17:00:43,874 DEBUG c.z.h.HikariConfig [restartedMain] allowPoolSuspension.............false
+2024-07-10 17:00:43,874 DEBUG c.z.h.HikariConfig [restartedMain] autoCommit......................true
+2024-07-10 17:00:43,875 DEBUG c.z.h.HikariConfig [restartedMain] catalog.........................none
+2024-07-10 17:00:43,875 DEBUG c.z.h.HikariConfig [restartedMain] connectionInitSql...............none
+2024-07-10 17:00:43,875 DEBUG c.z.h.HikariConfig [restartedMain] connectionTestQuery.............none
+2024-07-10 17:00:43,875 DEBUG c.z.h.HikariConfig [restartedMain] connectionTimeout...............30000
+2024-07-10 17:00:43,875 DEBUG c.z.h.HikariConfig [restartedMain] dataSource......................none
+2024-07-10 17:00:43,875 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceClassName.............none
+2024-07-10 17:00:43,875 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceJNDI..................none
+2024-07-10 17:00:43,876 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceProperties............{password=<masked>}
+2024-07-10 17:00:43,876 DEBUG c.z.h.HikariConfig [restartedMain] driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-07-10 17:00:43,876 DEBUG c.z.h.HikariConfig [restartedMain] exceptionOverrideClassName......none
+2024-07-10 17:00:43,876 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckProperties...........{}
+2024-07-10 17:00:43,877 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckRegistry.............none
+2024-07-10 17:00:43,877 DEBUG c.z.h.HikariConfig [restartedMain] idleTimeout.....................600000
+2024-07-10 17:00:43,877 DEBUG c.z.h.HikariConfig [restartedMain] initializationFailTimeout.......1
+2024-07-10 17:00:43,877 DEBUG c.z.h.HikariConfig [restartedMain] isolateInternalQueries..........false
+2024-07-10 17:00:43,877 DEBUG c.z.h.HikariConfig [restartedMain] jdbcUrl.........................jdbc:mysql://49.50.167.130:3306/naverdb
+2024-07-10 17:00:43,879 DEBUG c.z.h.HikariConfig [restartedMain] keepaliveTime...................0
+2024-07-10 17:00:43,879 DEBUG c.z.h.HikariConfig [restartedMain] leakDetectionThreshold..........0
+2024-07-10 17:00:43,879 DEBUG c.z.h.HikariConfig [restartedMain] maxLifetime.....................1800000
+2024-07-10 17:00:43,879 DEBUG c.z.h.HikariConfig [restartedMain] maximumPoolSize.................10
+2024-07-10 17:00:43,879 DEBUG c.z.h.HikariConfig [restartedMain] metricRegistry..................none
+2024-07-10 17:00:43,879 DEBUG c.z.h.HikariConfig [restartedMain] metricsTrackerFactory...........none
+2024-07-10 17:00:43,879 DEBUG c.z.h.HikariConfig [restartedMain] minimumIdle.....................10
+2024-07-10 17:00:43,880 DEBUG c.z.h.HikariConfig [restartedMain] password........................<masked>
+2024-07-10 17:00:43,880 DEBUG c.z.h.HikariConfig [restartedMain] poolName........................"HikariPool-8"
+2024-07-10 17:00:43,880 DEBUG c.z.h.HikariConfig [restartedMain] readOnly........................false
+2024-07-10 17:00:43,880 DEBUG c.z.h.HikariConfig [restartedMain] registerMbeans..................false
+2024-07-10 17:00:43,880 DEBUG c.z.h.HikariConfig [restartedMain] scheduledExecutor...............none
+2024-07-10 17:00:43,880 DEBUG c.z.h.HikariConfig [restartedMain] schema..........................none
+2024-07-10 17:00:43,880 DEBUG c.z.h.HikariConfig [restartedMain] threadFactory...................internal
+2024-07-10 17:00:43,880 DEBUG c.z.h.HikariConfig [restartedMain] transactionIsolation............default
+2024-07-10 17:00:43,881 DEBUG c.z.h.HikariConfig [restartedMain] username........................"naver"
+2024-07-10 17:00:43,881 DEBUG c.z.h.HikariConfig [restartedMain] validationTimeout...............5000
+2024-07-10 17:00:43,881 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2024-07-10 17:00:43,931 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49b2c840
+2024-07-10 17:00:43,932 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2024-07-10 17:00:44,013 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-07-10 17:00:44,027 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:00:44,032 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-07-10 17:00:44,038 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 1.203 seconds (process running for 2563.171)
+2024-07-10 17:00:44,040 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-07-10 17:00:44,044 DEBUG c.z.h.p.HikariPool [HikariPool-8 housekeeper] HikariPool-8 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-07-10 17:00:44,097 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-8 connection adder] HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57dec2ea
+2024-07-10 17:00:44,139 DEBUG c.z.h.p.HikariPool [HikariPool-8 connection adder] HikariPool-8 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-07-10 17:00:44,186 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-8 connection adder] HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16e3c8d1
+2024-07-10 17:00:44,218 DEBUG c.z.h.p.HikariPool [HikariPool-8 connection adder] HikariPool-8 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-07-10 17:00:44,265 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-8 connection adder] HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@273fdae9
+2024-07-10 17:00:44,311 DEBUG c.z.h.p.HikariPool [HikariPool-8 connection adder] HikariPool-8 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-07-10 17:00:44,365 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-8 connection adder] HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76cc379e
+2024-07-10 17:00:44,404 DEBUG c.z.h.p.HikariPool [HikariPool-8 connection adder] HikariPool-8 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-07-10 17:00:44,453 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-8 connection adder] HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@159a5e3b
+2024-07-10 17:00:44,484 DEBUG c.z.h.p.HikariPool [HikariPool-8 connection adder] HikariPool-8 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-07-10 17:00:44,525 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-8 connection adder] HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72822deb
+2024-07-10 17:00:44,563 DEBUG c.z.h.p.HikariPool [HikariPool-8 connection adder] HikariPool-8 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-07-10 17:00:44,616 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-8 connection adder] HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20fe02ac
+2024-07-10 17:00:44,656 DEBUG c.z.h.p.HikariPool [HikariPool-8 connection adder] HikariPool-8 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-07-10 17:00:44,704 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-8 connection adder] HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@aeca0e9
+2024-07-10 17:00:44,749 DEBUG c.z.h.p.HikariPool [HikariPool-8 connection adder] HikariPool-8 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-07-10 17:00:44,799 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-8 connection adder] HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2aea41f0
+2024-07-10 17:00:44,843 DEBUG c.z.h.p.HikariPool [HikariPool-8 connection adder] HikariPool-8 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:01:14,051 DEBUG c.z.h.p.HikariPool [HikariPool-8 housekeeper] HikariPool-8 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:01:14,051 DEBUG c.z.h.p.HikariPool [HikariPool-8 housekeeper] HikariPool-8 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:01:15,385 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(78)-127.0.0.1] Application shutdown requested.
+2024-07-10 17:01:15,386 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(78)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:01:15,562 INFO c.z.h.HikariDataSource [RMI TCP Connection(78)-127.0.0.1] HikariPool-8 - Shutdown initiated...
+2024-07-10 17:01:15,562 DEBUG c.z.h.p.HikariPool [RMI TCP Connection(78)-127.0.0.1] HikariPool-8 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:01:15,562 DEBUG c.z.h.p.PoolBase [HikariPool-8 connection closer] HikariPool-8 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@49b2c840: (connection evicted)
+2024-07-10 17:01:15,564 DEBUG c.z.h.p.PoolBase [HikariPool-8 connection closer] HikariPool-8 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57dec2ea: (connection evicted)
+2024-07-10 17:01:15,564 DEBUG c.z.h.p.PoolBase [HikariPool-8 connection closer] HikariPool-8 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16e3c8d1: (connection evicted)
+2024-07-10 17:01:15,564 DEBUG c.z.h.p.PoolBase [HikariPool-8 connection closer] HikariPool-8 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@273fdae9: (connection evicted)
+2024-07-10 17:01:15,565 DEBUG c.z.h.p.PoolBase [HikariPool-8 connection closer] HikariPool-8 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@76cc379e: (connection evicted)
+2024-07-10 17:01:15,565 DEBUG c.z.h.p.PoolBase [HikariPool-8 connection closer] HikariPool-8 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@159a5e3b: (connection evicted)
+2024-07-10 17:01:15,565 DEBUG c.z.h.p.PoolBase [HikariPool-8 connection closer] HikariPool-8 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@72822deb: (connection evicted)
+2024-07-10 17:01:15,566 DEBUG c.z.h.p.PoolBase [HikariPool-8 connection closer] HikariPool-8 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@20fe02ac: (connection evicted)
+2024-07-10 17:01:15,566 DEBUG c.z.h.p.PoolBase [HikariPool-8 connection closer] HikariPool-8 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@aeca0e9: (connection evicted)
+2024-07-10 17:01:15,566 DEBUG c.z.h.p.PoolBase [HikariPool-8 connection closer] HikariPool-8 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2aea41f0: (connection evicted)
+2024-07-10 17:01:15,566 DEBUG c.z.h.p.HikariPool [RMI TCP Connection(78)-127.0.0.1] HikariPool-8 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-07-10 17:01:15,566 INFO c.z.h.HikariDataSource [RMI TCP Connection(78)-127.0.0.1] HikariPool-8 - Shutdown completed.
+2024-07-10 17:01:41,818 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 17.0.11 with PID 17828 (C:\backup\workspace_sts4\demo_gradle\bin\main started by Notebook9 in C:\backup\workspace_sts4\demo_gradle)
+2024-07-10 17:01:41,821 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "local"
+2024-07-10 17:01:41,904 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-10 17:01:41,905 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-10 17:01:42,720 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-10 17:01:42,746 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 20 ms. Found 0 JDBC repository interfaces.
+2024-07-10 17:01:43,727 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-07-10 17:01:43,742 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:01:43,745 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-07-10 17:01:43,745 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 17:01:43,986 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-07-10 17:01:43,995 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-10 17:01:43,996 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2090 ms
+2024-07-10 17:01:44,159 DEBUG c.z.h.HikariConfig [restartedMain] Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5edaec85
+2024-07-10 17:01:44,573 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2024-07-10 17:01:44,885 INFO l.LogbackLoggerAOP [restartedMain] [[START]]upload.MyPathConfig.addResourceHandlers() <=================
+2024-07-10 17:01:44,886 INFO l.LogbackLoggerAOP [restartedMain] Argument/Parameter : [org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry@3d01a4fd]
+2024-07-10 17:01:44,886 INFO l.LogbackLoggerAOP [restartedMain] ================[[END : addResourceHandlers()]]==================
+2024-07-10 17:01:45,219 DEBUG c.z.h.HikariConfig [restartedMain] HikariPool-1 - configuration:
+2024-07-10 17:01:45,221 DEBUG c.z.h.HikariConfig [restartedMain] allowPoolSuspension.............false
+2024-07-10 17:01:45,222 DEBUG c.z.h.HikariConfig [restartedMain] autoCommit......................true
+2024-07-10 17:01:45,222 DEBUG c.z.h.HikariConfig [restartedMain] catalog.........................none
+2024-07-10 17:01:45,222 DEBUG c.z.h.HikariConfig [restartedMain] connectionInitSql...............none
+2024-07-10 17:01:45,222 DEBUG c.z.h.HikariConfig [restartedMain] connectionTestQuery.............none
+2024-07-10 17:01:45,222 DEBUG c.z.h.HikariConfig [restartedMain] connectionTimeout...............30000
+2024-07-10 17:01:45,223 DEBUG c.z.h.HikariConfig [restartedMain] dataSource......................none
+2024-07-10 17:01:45,223 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceClassName.............none
+2024-07-10 17:01:45,223 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceJNDI..................none
+2024-07-10 17:01:45,224 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceProperties............{password=<masked>}
+2024-07-10 17:01:45,225 DEBUG c.z.h.HikariConfig [restartedMain] driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-07-10 17:01:45,225 DEBUG c.z.h.HikariConfig [restartedMain] exceptionOverrideClassName......none
+2024-07-10 17:01:45,225 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckProperties...........{}
+2024-07-10 17:01:45,226 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckRegistry.............none
+2024-07-10 17:01:45,226 DEBUG c.z.h.HikariConfig [restartedMain] idleTimeout.....................600000
+2024-07-10 17:01:45,226 DEBUG c.z.h.HikariConfig [restartedMain] initializationFailTimeout.......1
+2024-07-10 17:01:45,226 DEBUG c.z.h.HikariConfig [restartedMain] isolateInternalQueries..........false
+2024-07-10 17:01:45,227 DEBUG c.z.h.HikariConfig [restartedMain] jdbcUrl.........................jdbc:mysql://49.50.167.130:3306/naverdb
+2024-07-10 17:01:45,228 DEBUG c.z.h.HikariConfig [restartedMain] keepaliveTime...................0
+2024-07-10 17:01:45,228 DEBUG c.z.h.HikariConfig [restartedMain] leakDetectionThreshold..........0
+2024-07-10 17:01:45,228 DEBUG c.z.h.HikariConfig [restartedMain] maxLifetime.....................1800000
+2024-07-10 17:01:45,228 DEBUG c.z.h.HikariConfig [restartedMain] maximumPoolSize.................10
+2024-07-10 17:01:45,228 DEBUG c.z.h.HikariConfig [restartedMain] metricRegistry..................none
+2024-07-10 17:01:45,229 DEBUG c.z.h.HikariConfig [restartedMain] metricsTrackerFactory...........none
+2024-07-10 17:01:45,229 DEBUG c.z.h.HikariConfig [restartedMain] minimumIdle.....................10
+2024-07-10 17:01:45,229 DEBUG c.z.h.HikariConfig [restartedMain] password........................<masked>
+2024-07-10 17:01:45,229 DEBUG c.z.h.HikariConfig [restartedMain] poolName........................"HikariPool-1"
+2024-07-10 17:01:45,230 DEBUG c.z.h.HikariConfig [restartedMain] readOnly........................false
+2024-07-10 17:01:45,230 DEBUG c.z.h.HikariConfig [restartedMain] registerMbeans..................false
+2024-07-10 17:01:45,230 DEBUG c.z.h.HikariConfig [restartedMain] scheduledExecutor...............none
+2024-07-10 17:01:45,230 DEBUG c.z.h.HikariConfig [restartedMain] schema..........................none
+2024-07-10 17:01:45,231 DEBUG c.z.h.HikariConfig [restartedMain] threadFactory...................internal
+2024-07-10 17:01:45,231 DEBUG c.z.h.HikariConfig [restartedMain] transactionIsolation............default
+2024-07-10 17:01:45,231 DEBUG c.z.h.HikariConfig [restartedMain] username........................"naver"
+2024-07-10 17:01:45,231 DEBUG c.z.h.HikariConfig [restartedMain] validationTimeout...............5000
+2024-07-10 17:01:45,231 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-07-10 17:01:45,675 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@569f64f6
+2024-07-10 17:01:45,677 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-07-10 17:01:45,789 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-07-10 17:01:45,839 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21d4bf6d
+2024-07-10 17:01:45,884 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-07-10 17:01:45,932 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-07-10 17:01:45,951 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c64a19
+2024-07-10 17:01:45,966 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:01:45,991 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-07-10 17:01:46,000 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-07-10 17:01:46,014 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 4.795 seconds (process running for 5.905)
+2024-07-10 17:01:46,047 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b26b9ca
+2024-07-10 17:01:46,085 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-07-10 17:01:46,180 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@488367e
+2024-07-10 17:01:46,225 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-07-10 17:01:46,289 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c61c5f3
+2024-07-10 17:01:46,334 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-07-10 17:01:46,391 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2016e8ad
+2024-07-10 17:01:46,427 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-07-10 17:01:46,481 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@107dec66
+2024-07-10 17:01:46,512 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-07-10 17:01:46,561 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13686701
+2024-07-10 17:01:46,599 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-07-10 17:01:46,660 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2203a719
+2024-07-10 17:01:46,693 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:02:15,802 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:02:15,802 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:02:45,806 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:02:45,807 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:03:15,809 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:03:15,809 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:03:45,812 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:03:45,812 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:04:15,826 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:04:15,826 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:04:26,685 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-10 17:04:26,686 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-07-10 17:04:26,688 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-07-10 17:04:33,995 INFO s.EmitterRepository [http-nio-8080-exec-2] Saved SseEmitter for 1
+2024-07-10 17:04:33,995 INFO s.EmitterRepository [http-nio-8080-exec-2] Get SseEmitter for 1
+2024-07-10 17:04:45,842 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:04:45,842 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:05:15,855 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:05:15,855 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:05:45,863 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:05:45,863 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:06:04,381 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(13)-127.0.0.1] Application shutdown requested.
+2024-07-10 17:06:04,385 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(13)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:06:04,386 INFO s.EmitterRepository [http-nio-8080-exec-4] Deleted SseEmitter for 1
+2024-07-10 17:06:04,399 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-4] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:06:04,400 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:06:04,401 INFO s.EmitterRepository [http-nio-8080-exec-4] Deleted SseEmitter for 1
+2024-07-10 17:06:04,637 INFO c.z.h.HikariDataSource [RMI TCP Connection(13)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2024-07-10 17:06:04,637 DEBUG c.z.h.p.HikariPool [RMI TCP Connection(13)-127.0.0.1] HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:06:04,639 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@569f64f6: (connection evicted)
+2024-07-10 17:06:04,641 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@21d4bf6d: (connection evicted)
+2024-07-10 17:06:04,642 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c64a19: (connection evicted)
+2024-07-10 17:06:04,642 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5b26b9ca: (connection evicted)
+2024-07-10 17:06:04,643 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@488367e: (connection evicted)
+2024-07-10 17:06:04,643 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6c61c5f3: (connection evicted)
+2024-07-10 17:06:04,644 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2016e8ad: (connection evicted)
+2024-07-10 17:06:04,644 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@107dec66: (connection evicted)
+2024-07-10 17:06:04,645 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13686701: (connection evicted)
+2024-07-10 17:06:04,645 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2203a719: (connection evicted)
+2024-07-10 17:06:04,646 DEBUG c.z.h.p.HikariPool [RMI TCP Connection(13)-127.0.0.1] HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-07-10 17:06:04,646 INFO c.z.h.HikariDataSource [RMI TCP Connection(13)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2024-07-10 17:06:12,180 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 17.0.11 with PID 16916 (C:\backup\workspace_sts4\demo_gradle\bin\main started by Notebook9 in C:\backup\workspace_sts4\demo_gradle)
+2024-07-10 17:06:12,183 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "local"
+2024-07-10 17:06:12,258 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-10 17:06:12,259 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-10 17:06:13,003 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-10 17:06:13,027 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 18 ms. Found 0 JDBC repository interfaces.
+2024-07-10 17:06:13,943 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-07-10 17:06:13,954 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:06:13,957 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-07-10 17:06:13,957 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 17:06:14,203 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-07-10 17:06:14,213 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-10 17:06:14,217 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1957 ms
+2024-07-10 17:06:14,402 DEBUG c.z.h.HikariConfig [restartedMain] Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7a5f59a
+2024-07-10 17:06:14,829 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2024-07-10 17:06:15,112 INFO l.LogbackLoggerAOP [restartedMain] [[START]]upload.MyPathConfig.addResourceHandlers() <=================
+2024-07-10 17:06:15,113 INFO l.LogbackLoggerAOP [restartedMain] Argument/Parameter : [org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry@6c1dede3]
+2024-07-10 17:06:15,114 INFO l.LogbackLoggerAOP [restartedMain] ================[[END : addResourceHandlers()]]==================
+2024-07-10 17:06:15,418 DEBUG c.z.h.HikariConfig [restartedMain] HikariPool-1 - configuration:
+2024-07-10 17:06:15,420 DEBUG c.z.h.HikariConfig [restartedMain] allowPoolSuspension.............false
+2024-07-10 17:06:15,421 DEBUG c.z.h.HikariConfig [restartedMain] autoCommit......................true
+2024-07-10 17:06:15,421 DEBUG c.z.h.HikariConfig [restartedMain] catalog.........................none
+2024-07-10 17:06:15,421 DEBUG c.z.h.HikariConfig [restartedMain] connectionInitSql...............none
+2024-07-10 17:06:15,421 DEBUG c.z.h.HikariConfig [restartedMain] connectionTestQuery.............none
+2024-07-10 17:06:15,421 DEBUG c.z.h.HikariConfig [restartedMain] connectionTimeout...............30000
+2024-07-10 17:06:15,422 DEBUG c.z.h.HikariConfig [restartedMain] dataSource......................none
+2024-07-10 17:06:15,422 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceClassName.............none
+2024-07-10 17:06:15,422 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceJNDI..................none
+2024-07-10 17:06:15,423 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceProperties............{password=<masked>}
+2024-07-10 17:06:15,423 DEBUG c.z.h.HikariConfig [restartedMain] driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-07-10 17:06:15,423 DEBUG c.z.h.HikariConfig [restartedMain] exceptionOverrideClassName......none
+2024-07-10 17:06:15,423 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckProperties...........{}
+2024-07-10 17:06:15,424 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckRegistry.............none
+2024-07-10 17:06:15,424 DEBUG c.z.h.HikariConfig [restartedMain] idleTimeout.....................600000
+2024-07-10 17:06:15,424 DEBUG c.z.h.HikariConfig [restartedMain] initializationFailTimeout.......1
+2024-07-10 17:06:15,424 DEBUG c.z.h.HikariConfig [restartedMain] isolateInternalQueries..........false
+2024-07-10 17:06:15,425 DEBUG c.z.h.HikariConfig [restartedMain] jdbcUrl.........................jdbc:mysql://49.50.167.130:3306/naverdb
+2024-07-10 17:06:15,425 DEBUG c.z.h.HikariConfig [restartedMain] keepaliveTime...................0
+2024-07-10 17:06:15,425 DEBUG c.z.h.HikariConfig [restartedMain] leakDetectionThreshold..........0
+2024-07-10 17:06:15,425 DEBUG c.z.h.HikariConfig [restartedMain] maxLifetime.....................1800000
+2024-07-10 17:06:15,425 DEBUG c.z.h.HikariConfig [restartedMain] maximumPoolSize.................10
+2024-07-10 17:06:15,426 DEBUG c.z.h.HikariConfig [restartedMain] metricRegistry..................none
+2024-07-10 17:06:15,426 DEBUG c.z.h.HikariConfig [restartedMain] metricsTrackerFactory...........none
+2024-07-10 17:06:15,426 DEBUG c.z.h.HikariConfig [restartedMain] minimumIdle.....................10
+2024-07-10 17:06:15,426 DEBUG c.z.h.HikariConfig [restartedMain] password........................<masked>
+2024-07-10 17:06:15,426 DEBUG c.z.h.HikariConfig [restartedMain] poolName........................"HikariPool-1"
+2024-07-10 17:06:15,426 DEBUG c.z.h.HikariConfig [restartedMain] readOnly........................false
+2024-07-10 17:06:15,427 DEBUG c.z.h.HikariConfig [restartedMain] registerMbeans..................false
+2024-07-10 17:06:15,427 DEBUG c.z.h.HikariConfig [restartedMain] scheduledExecutor...............none
+2024-07-10 17:06:15,427 DEBUG c.z.h.HikariConfig [restartedMain] schema..........................none
+2024-07-10 17:06:15,427 DEBUG c.z.h.HikariConfig [restartedMain] threadFactory...................internal
+2024-07-10 17:06:15,428 DEBUG c.z.h.HikariConfig [restartedMain] transactionIsolation............default
+2024-07-10 17:06:15,428 DEBUG c.z.h.HikariConfig [restartedMain] username........................"naver"
+2024-07-10 17:06:15,428 DEBUG c.z.h.HikariConfig [restartedMain] validationTimeout...............5000
+2024-07-10 17:06:15,428 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-07-10 17:06:15,833 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d98a55a
+2024-07-10 17:06:15,835 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-07-10 17:06:15,950 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-07-10 17:06:16,021 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a27a813
+2024-07-10 17:06:16,059 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-07-10 17:06:16,086 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-07-10 17:06:16,123 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:06:16,135 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b355d67
+2024-07-10 17:06:16,157 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-07-10 17:06:16,168 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-07-10 17:06:16,169 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 4.597 seconds (process running for 5.597)
+2024-07-10 17:06:16,240 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ea4b54a
+2024-07-10 17:06:16,279 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-07-10 17:06:16,334 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f7b42eb
+2024-07-10 17:06:16,367 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-07-10 17:06:16,421 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@765b0b16
+2024-07-10 17:06:16,466 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-07-10 17:06:16,530 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ebf7d84
+2024-07-10 17:06:16,576 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-07-10 17:06:16,638 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@638b9f3c
+2024-07-10 17:06:16,669 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-07-10 17:06:16,734 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f012fcc
+2024-07-10 17:06:16,778 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-07-10 17:06:16,833 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ad24a2f
+2024-07-10 17:06:16,870 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:06:18,166 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-10 17:06:18,166 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-07-10 17:06:18,168 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-07-10 17:06:18,213 INFO s.EmitterRepository [http-nio-8080-exec-1] Saved SseEmitter for 1
+2024-07-10 17:06:18,213 INFO s.EmitterRepository [http-nio-8080-exec-1] Get SseEmitter for 1
+2024-07-10 17:06:32,098 INFO s.EmitterRepository [http-nio-8080-exec-3] Saved SseEmitter for 1
+2024-07-10 17:06:32,098 INFO s.EmitterRepository [http-nio-8080-exec-3] Get SseEmitter for 1
+2024-07-10 17:06:45,955 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:06:45,955 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:07:12,443 INFO s.EmitterRepository [http-nio-8080-exec-6] Saved SseEmitter for 1
+2024-07-10 17:07:12,444 INFO s.EmitterRepository [http-nio-8080-exec-6] Get SseEmitter for 1
+2024-07-10 17:07:15,958 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:07:15,958 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:07:45,960 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:07:45,960 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:08:15,973 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:08:15,973 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:08:45,977 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:08:45,977 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:09:15,978 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:09:15,978 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:09:24,171 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-10 17:09:24,175 INFO o.a.j.l.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:09:24,177 INFO s.EmitterRepository [http-nio-8080-exec-7] Deleted SseEmitter for 1
+2024-07-10 17:09:24,177 INFO s.EmitterRepository [http-nio-8080-exec-9] Deleted SseEmitter for 1
+2024-07-10 17:09:24,177 INFO s.EmitterRepository [http-nio-8080-exec-8] Deleted SseEmitter for 1
+2024-07-10 17:09:24,184 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-7] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:09:24,184 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-8] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:09:24,184 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-9] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:09:24,185 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:09:24,185 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:09:24,185 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:09:24,187 INFO s.EmitterRepository [http-nio-8080-exec-9] Deleted SseEmitter for 1
+2024-07-10 17:09:24,187 INFO s.EmitterRepository [http-nio-8080-exec-8] Deleted SseEmitter for 1
+2024-07-10 17:09:24,187 INFO s.EmitterRepository [http-nio-8080-exec-7] Deleted SseEmitter for 1
+2024-07-10 17:09:24,383 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2024-07-10 17:09:24,384 DEBUG c.z.h.p.HikariPool [Thread-5] HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:09:24,385 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1d98a55a: (connection evicted)
+2024-07-10 17:09:24,388 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a27a813: (connection evicted)
+2024-07-10 17:09:24,388 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6b355d67: (connection evicted)
+2024-07-10 17:09:24,389 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1ea4b54a: (connection evicted)
+2024-07-10 17:09:24,389 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6f7b42eb: (connection evicted)
+2024-07-10 17:09:24,390 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@765b0b16: (connection evicted)
+2024-07-10 17:09:24,391 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5ebf7d84: (connection evicted)
+2024-07-10 17:09:24,391 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@638b9f3c: (connection evicted)
+2024-07-10 17:09:24,391 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3f012fcc: (connection evicted)
+2024-07-10 17:09:24,392 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ad24a2f: (connection evicted)
+2024-07-10 17:09:24,393 DEBUG c.z.h.p.HikariPool [Thread-5] HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-07-10 17:09:24,393 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2024-07-10 17:09:24,498 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 17.0.11 with PID 16916 (C:\backup\workspace_sts4\demo_gradle\bin\main started by Notebook9 in C:\backup\workspace_sts4\demo_gradle)
+2024-07-10 17:09:24,498 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "local"
+2024-07-10 17:09:24,755 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-10 17:09:24,757 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2024-07-10 17:09:24,944 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-07-10 17:09:24,944 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:09:24,945 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-07-10 17:09:24,945 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 17:09:25,073 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-07-10 17:09:25,075 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-10 17:09:25,075 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 573 ms
+2024-07-10 17:09:25,150 DEBUG c.z.h.HikariConfig [restartedMain] Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6126a12a
+2024-07-10 17:09:34,421 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 17.0.11 with PID 14172 (C:\backup\workspace_sts4\demo_gradle\bin\main started by Notebook9 in C:\backup\workspace_sts4\demo_gradle)
+2024-07-10 17:09:34,426 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "local"
+2024-07-10 17:09:34,497 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-10 17:09:34,498 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-10 17:09:35,263 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-10 17:09:35,287 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 19 ms. Found 0 JDBC repository interfaces.
+2024-07-10 17:09:36,305 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-07-10 17:09:36,318 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:09:36,320 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-07-10 17:09:36,320 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 17:09:36,570 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-07-10 17:09:36,578 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-10 17:09:36,578 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2079 ms
+2024-07-10 17:09:36,764 DEBUG c.z.h.HikariConfig [restartedMain] Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@ab5cf3c
+2024-07-10 17:09:37,189 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2024-07-10 17:09:37,515 INFO l.LogbackLoggerAOP [restartedMain] [[START]]upload.MyPathConfig.addResourceHandlers() <=================
+2024-07-10 17:09:37,515 INFO l.LogbackLoggerAOP [restartedMain] Argument/Parameter : [org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry@17c4cda2]
+2024-07-10 17:09:37,516 INFO l.LogbackLoggerAOP [restartedMain] ================[[END : addResourceHandlers()]]==================
+2024-07-10 17:09:37,802 DEBUG c.z.h.HikariConfig [restartedMain] HikariPool-1 - configuration:
+2024-07-10 17:09:37,804 DEBUG c.z.h.HikariConfig [restartedMain] allowPoolSuspension.............false
+2024-07-10 17:09:37,805 DEBUG c.z.h.HikariConfig [restartedMain] autoCommit......................true
+2024-07-10 17:09:37,805 DEBUG c.z.h.HikariConfig [restartedMain] catalog.........................none
+2024-07-10 17:09:37,805 DEBUG c.z.h.HikariConfig [restartedMain] connectionInitSql...............none
+2024-07-10 17:09:37,805 DEBUG c.z.h.HikariConfig [restartedMain] connectionTestQuery.............none
+2024-07-10 17:09:37,805 DEBUG c.z.h.HikariConfig [restartedMain] connectionTimeout...............30000
+2024-07-10 17:09:37,806 DEBUG c.z.h.HikariConfig [restartedMain] dataSource......................none
+2024-07-10 17:09:37,806 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceClassName.............none
+2024-07-10 17:09:37,806 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceJNDI..................none
+2024-07-10 17:09:37,806 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceProperties............{password=<masked>}
+2024-07-10 17:09:37,807 DEBUG c.z.h.HikariConfig [restartedMain] driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-07-10 17:09:37,807 DEBUG c.z.h.HikariConfig [restartedMain] exceptionOverrideClassName......none
+2024-07-10 17:09:37,807 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckProperties...........{}
+2024-07-10 17:09:37,807 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckRegistry.............none
+2024-07-10 17:09:37,807 DEBUG c.z.h.HikariConfig [restartedMain] idleTimeout.....................600000
+2024-07-10 17:09:37,807 DEBUG c.z.h.HikariConfig [restartedMain] initializationFailTimeout.......1
+2024-07-10 17:09:37,808 DEBUG c.z.h.HikariConfig [restartedMain] isolateInternalQueries..........false
+2024-07-10 17:09:37,808 DEBUG c.z.h.HikariConfig [restartedMain] jdbcUrl.........................jdbc:mysql://49.50.167.130:3306/naverdb
+2024-07-10 17:09:37,809 DEBUG c.z.h.HikariConfig [restartedMain] keepaliveTime...................0
+2024-07-10 17:09:37,809 DEBUG c.z.h.HikariConfig [restartedMain] leakDetectionThreshold..........0
+2024-07-10 17:09:37,809 DEBUG c.z.h.HikariConfig [restartedMain] maxLifetime.....................1800000
+2024-07-10 17:09:37,810 DEBUG c.z.h.HikariConfig [restartedMain] maximumPoolSize.................10
+2024-07-10 17:09:37,810 DEBUG c.z.h.HikariConfig [restartedMain] metricRegistry..................none
+2024-07-10 17:09:37,810 DEBUG c.z.h.HikariConfig [restartedMain] metricsTrackerFactory...........none
+2024-07-10 17:09:37,811 DEBUG c.z.h.HikariConfig [restartedMain] minimumIdle.....................10
+2024-07-10 17:09:37,811 DEBUG c.z.h.HikariConfig [restartedMain] password........................<masked>
+2024-07-10 17:09:37,811 DEBUG c.z.h.HikariConfig [restartedMain] poolName........................"HikariPool-1"
+2024-07-10 17:09:37,812 DEBUG c.z.h.HikariConfig [restartedMain] readOnly........................false
+2024-07-10 17:09:37,812 DEBUG c.z.h.HikariConfig [restartedMain] registerMbeans..................false
+2024-07-10 17:09:37,813 DEBUG c.z.h.HikariConfig [restartedMain] scheduledExecutor...............none
+2024-07-10 17:09:37,813 DEBUG c.z.h.HikariConfig [restartedMain] schema..........................none
+2024-07-10 17:09:37,813 DEBUG c.z.h.HikariConfig [restartedMain] threadFactory...................internal
+2024-07-10 17:09:37,814 DEBUG c.z.h.HikariConfig [restartedMain] transactionIsolation............default
+2024-07-10 17:09:37,814 DEBUG c.z.h.HikariConfig [restartedMain] username........................"naver"
+2024-07-10 17:09:37,814 DEBUG c.z.h.HikariConfig [restartedMain] validationTimeout...............5000
+2024-07-10 17:09:37,814 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-07-10 17:09:38,239 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5dba9e5d
+2024-07-10 17:09:38,242 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-07-10 17:09:38,344 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-07-10 17:09:38,406 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@558fc873
+2024-07-10 17:09:38,438 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-07-10 17:09:38,507 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@749d3d07
+2024-07-10 17:09:38,517 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-07-10 17:09:38,547 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-07-10 17:09:38,548 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:09:38,583 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-07-10 17:09:38,594 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 4.786 seconds (process running for 5.78)
+2024-07-10 17:09:38,610 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6302323d
+2024-07-10 17:09:38,642 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-07-10 17:09:38,693 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70d3a533
+2024-07-10 17:09:38,732 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-07-10 17:09:38,772 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-10 17:09:38,772 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-07-10 17:09:38,773 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-07-10 17:09:38,791 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34f25cc7
+2024-07-10 17:09:38,815 INFO s.EmitterRepository [http-nio-8080-exec-1] Saved SseEmitter for 1
+2024-07-10 17:09:38,815 INFO s.EmitterRepository [http-nio-8080-exec-1] Get SseEmitter for 1
+2024-07-10 17:09:38,823 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-07-10 17:09:38,878 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@123900c6
+2024-07-10 17:09:38,920 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-07-10 17:09:38,974 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74f4d1aa
+2024-07-10 17:09:39,014 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-07-10 17:09:39,074 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ea9f41c
+2024-07-10 17:09:39,105 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-07-10 17:09:39,152 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c6f7e1f
+2024-07-10 17:09:39,184 DEBUG c.z.h.p.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:09:49,414 INFO s.EmitterRepository [http-nio-8080-exec-4] Saved SseEmitter for 1
+2024-07-10 17:09:49,414 INFO s.EmitterRepository [http-nio-8080-exec-4] Get SseEmitter for 1
+2024-07-10 17:10:08,360 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:10:08,360 DEBUG c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:10:29,399 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-10 17:10:29,403 INFO o.a.j.l.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:10:29,405 INFO s.EmitterRepository [http-nio-8080-exec-6] Deleted SseEmitter for 1
+2024-07-10 17:10:29,405 INFO s.EmitterRepository [http-nio-8080-exec-5] Deleted SseEmitter for 1
+2024-07-10 17:10:29,412 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-6] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:10:29,412 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-5] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:10:29,413 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:10:29,414 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:10:29,414 INFO s.EmitterRepository [http-nio-8080-exec-6] Deleted SseEmitter for 1
+2024-07-10 17:10:29,414 INFO s.EmitterRepository [http-nio-8080-exec-5] Deleted SseEmitter for 1
+2024-07-10 17:10:29,597 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2024-07-10 17:10:29,597 DEBUG c.z.h.p.HikariPool [Thread-5] HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:10:29,599 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5dba9e5d: (connection evicted)
+2024-07-10 17:10:29,601 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@558fc873: (connection evicted)
+2024-07-10 17:10:29,602 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@749d3d07: (connection evicted)
+2024-07-10 17:10:29,602 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6302323d: (connection evicted)
+2024-07-10 17:10:29,603 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@70d3a533: (connection evicted)
+2024-07-10 17:10:29,603 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@34f25cc7: (connection evicted)
+2024-07-10 17:10:29,604 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@123900c6: (connection evicted)
+2024-07-10 17:10:29,605 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74f4d1aa: (connection evicted)
+2024-07-10 17:10:29,605 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3ea9f41c: (connection evicted)
+2024-07-10 17:10:29,606 DEBUG c.z.h.p.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4c6f7e1f: (connection evicted)
+2024-07-10 17:10:29,606 DEBUG c.z.h.p.HikariPool [Thread-5] HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-07-10 17:10:29,607 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2024-07-10 17:10:29,703 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 17.0.11 with PID 14172 (C:\backup\workspace_sts4\demo_gradle\bin\main started by Notebook9 in C:\backup\workspace_sts4\demo_gradle)
+2024-07-10 17:10:29,704 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "local"
+2024-07-10 17:10:29,937 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-10 17:10:29,938 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2024-07-10 17:10:30,119 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-07-10 17:10:30,120 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:10:30,121 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-07-10 17:10:30,121 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 17:10:30,248 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-07-10 17:10:30,251 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-10 17:10:30,251 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 542 ms
+2024-07-10 17:10:30,325 DEBUG c.z.h.HikariConfig [restartedMain] Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7ffb07ba
+2024-07-10 17:10:30,500 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2024-07-10 17:10:30,655 INFO l.LogbackLoggerAOP [restartedMain] [[START]]upload.MyPathConfig.addResourceHandlers() <=================
+2024-07-10 17:10:30,655 INFO l.LogbackLoggerAOP [restartedMain] Argument/Parameter : [org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry@2afd4650]
+2024-07-10 17:10:30,657 INFO l.LogbackLoggerAOP [restartedMain] ================[[END : addResourceHandlers()]]==================
+2024-07-10 17:10:30,827 DEBUG c.z.h.HikariConfig [restartedMain] HikariPool-2 - configuration:
+2024-07-10 17:10:30,829 DEBUG c.z.h.HikariConfig [restartedMain] allowPoolSuspension.............false
+2024-07-10 17:10:30,829 DEBUG c.z.h.HikariConfig [restartedMain] autoCommit......................true
+2024-07-10 17:10:30,830 DEBUG c.z.h.HikariConfig [restartedMain] catalog.........................none
+2024-07-10 17:10:30,830 DEBUG c.z.h.HikariConfig [restartedMain] connectionInitSql...............none
+2024-07-10 17:10:30,830 DEBUG c.z.h.HikariConfig [restartedMain] connectionTestQuery.............none
+2024-07-10 17:10:30,830 DEBUG c.z.h.HikariConfig [restartedMain] connectionTimeout...............30000
+2024-07-10 17:10:30,830 DEBUG c.z.h.HikariConfig [restartedMain] dataSource......................none
+2024-07-10 17:10:30,830 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceClassName.............none
+2024-07-10 17:10:30,831 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceJNDI..................none
+2024-07-10 17:10:30,831 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceProperties............{password=<masked>}
+2024-07-10 17:10:30,831 DEBUG c.z.h.HikariConfig [restartedMain] driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-07-10 17:10:30,831 DEBUG c.z.h.HikariConfig [restartedMain] exceptionOverrideClassName......none
+2024-07-10 17:10:30,831 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckProperties...........{}
+2024-07-10 17:10:30,832 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckRegistry.............none
+2024-07-10 17:10:30,832 DEBUG c.z.h.HikariConfig [restartedMain] idleTimeout.....................600000
+2024-07-10 17:10:30,832 DEBUG c.z.h.HikariConfig [restartedMain] initializationFailTimeout.......1
+2024-07-10 17:10:30,832 DEBUG c.z.h.HikariConfig [restartedMain] isolateInternalQueries..........false
+2024-07-10 17:10:30,833 DEBUG c.z.h.HikariConfig [restartedMain] jdbcUrl.........................jdbc:mysql://49.50.167.130:3306/naverdb
+2024-07-10 17:10:30,833 DEBUG c.z.h.HikariConfig [restartedMain] keepaliveTime...................0
+2024-07-10 17:10:30,833 DEBUG c.z.h.HikariConfig [restartedMain] leakDetectionThreshold..........0
+2024-07-10 17:10:30,833 DEBUG c.z.h.HikariConfig [restartedMain] maxLifetime.....................1800000
+2024-07-10 17:10:30,834 DEBUG c.z.h.HikariConfig [restartedMain] maximumPoolSize.................10
+2024-07-10 17:10:30,834 DEBUG c.z.h.HikariConfig [restartedMain] metricRegistry..................none
+2024-07-10 17:10:30,834 DEBUG c.z.h.HikariConfig [restartedMain] metricsTrackerFactory...........none
+2024-07-10 17:10:30,834 DEBUG c.z.h.HikariConfig [restartedMain] minimumIdle.....................10
+2024-07-10 17:10:30,835 DEBUG c.z.h.HikariConfig [restartedMain] password........................<masked>
+2024-07-10 17:10:30,835 DEBUG c.z.h.HikariConfig [restartedMain] poolName........................"HikariPool-2"
+2024-07-10 17:10:30,835 DEBUG c.z.h.HikariConfig [restartedMain] readOnly........................false
+2024-07-10 17:10:30,835 DEBUG c.z.h.HikariConfig [restartedMain] registerMbeans..................false
+2024-07-10 17:10:30,836 DEBUG c.z.h.HikariConfig [restartedMain] scheduledExecutor...............none
+2024-07-10 17:10:30,836 DEBUG c.z.h.HikariConfig [restartedMain] schema..........................none
+2024-07-10 17:10:30,836 DEBUG c.z.h.HikariConfig [restartedMain] threadFactory...................internal
+2024-07-10 17:10:30,836 DEBUG c.z.h.HikariConfig [restartedMain] transactionIsolation............default
+2024-07-10 17:10:30,837 DEBUG c.z.h.HikariConfig [restartedMain] username........................"naver"
+2024-07-10 17:10:30,837 DEBUG c.z.h.HikariConfig [restartedMain] validationTimeout...............5000
+2024-07-10 17:10:30,837 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2024-07-10 17:10:30,897 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22c4cd2c
+2024-07-10 17:10:30,898 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2024-07-10 17:10:31,001 DEBUG c.z.h.p.HikariPool [HikariPool-2 housekeeper] HikariPool-2 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-07-10 17:10:31,037 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-07-10 17:10:31,053 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:10:31,053 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67344446
+2024-07-10 17:10:31,058 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-07-10 17:10:31,067 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 1.404 seconds (process running for 58.253)
+2024-07-10 17:10:31,069 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-07-10 17:10:31,095 DEBUG c.z.h.p.HikariPool [HikariPool-2 connection adder] HikariPool-2 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-07-10 17:10:31,152 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26094e7d
+2024-07-10 17:10:31,188 DEBUG c.z.h.p.HikariPool [HikariPool-2 connection adder] HikariPool-2 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-07-10 17:10:31,240 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4626b132
+2024-07-10 17:10:31,270 DEBUG c.z.h.p.HikariPool [HikariPool-2 connection adder] HikariPool-2 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-07-10 17:10:31,324 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42688bb5
+2024-07-10 17:10:31,359 DEBUG c.z.h.p.HikariPool [HikariPool-2 connection adder] HikariPool-2 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-07-10 17:10:31,418 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73636ffc
+2024-07-10 17:10:31,448 DEBUG c.z.h.p.HikariPool [HikariPool-2 connection adder] HikariPool-2 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-07-10 17:10:31,498 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74636a89
+2024-07-10 17:10:31,530 DEBUG c.z.h.p.HikariPool [HikariPool-2 connection adder] HikariPool-2 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-07-10 17:10:31,597 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1862727a
+2024-07-10 17:10:31,638 DEBUG c.z.h.p.HikariPool [HikariPool-2 connection adder] HikariPool-2 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-07-10 17:10:31,696 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65d170ff
+2024-07-10 17:10:31,728 DEBUG c.z.h.p.HikariPool [HikariPool-2 connection adder] HikariPool-2 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-07-10 17:10:31,779 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-2 connection adder] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2982e26e
+2024-07-10 17:10:31,810 DEBUG c.z.h.p.HikariPool [HikariPool-2 connection adder] HikariPool-2 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:10:32,434 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-10 17:10:32,434 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-07-10 17:10:32,435 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-07-10 17:10:32,439 INFO s.NotificationController [http-nio-8080-exec-1] 컨트롤러 : 1
+2024-07-10 17:10:32,439 INFO s.EmitterRepository [http-nio-8080-exec-1] Saved SseEmitter for 1
+2024-07-10 17:10:32,439 INFO s.EmitterRepository [http-nio-8080-exec-1] Get SseEmitter for 1
+2024-07-10 17:10:39,683 INFO s.NotificationController [http-nio-8080-exec-4] 컨트롤러 : 1
+2024-07-10 17:10:39,683 INFO s.EmitterRepository [http-nio-8080-exec-4] Saved SseEmitter for 1
+2024-07-10 17:10:39,683 INFO s.EmitterRepository [http-nio-8080-exec-4] Get SseEmitter for 1
+2024-07-10 17:11:01,011 DEBUG c.z.h.p.HikariPool [HikariPool-2 housekeeper] HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:11:01,011 DEBUG c.z.h.p.HikariPool [HikariPool-2 housekeeper] HikariPool-2 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:11:16,115 INFO s.NotificationController [http-nio-8080-exec-5] 컨트롤러 : 5
+2024-07-10 17:11:16,115 INFO s.EmitterRepository [http-nio-8080-exec-5] Saved SseEmitter for 5
+2024-07-10 17:11:16,115 INFO s.EmitterRepository [http-nio-8080-exec-5] Get SseEmitter for 5
+2024-07-10 17:11:31,014 DEBUG c.z.h.p.HikariPool [HikariPool-2 housekeeper] HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:11:31,014 DEBUG c.z.h.p.HikariPool [HikariPool-2 housekeeper] HikariPool-2 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:11:47,705 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-10 17:11:47,708 INFO o.a.j.l.DirectJDKLog [Thread-7] Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:11:47,708 INFO s.EmitterRepository [http-nio-8080-exec-6] Deleted SseEmitter for 1
+2024-07-10 17:11:47,708 INFO s.EmitterRepository [http-nio-8080-exec-7] Deleted SseEmitter for 5
+2024-07-10 17:11:47,708 INFO s.EmitterRepository [http-nio-8080-exec-8] Deleted SseEmitter for 1
+2024-07-10 17:11:47,710 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-6] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:11:47,710 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-7] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:11:47,710 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-8] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:11:47,711 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:11:47,711 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:11:47,711 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:11:47,711 INFO s.EmitterRepository [http-nio-8080-exec-6] Deleted SseEmitter for 1
+2024-07-10 17:11:47,711 INFO s.EmitterRepository [http-nio-8080-exec-7] Deleted SseEmitter for 5
+2024-07-10 17:11:47,711 INFO s.EmitterRepository [http-nio-8080-exec-8] Deleted SseEmitter for 1
+2024-07-10 17:11:47,909 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2024-07-10 17:11:47,910 DEBUG c.z.h.p.HikariPool [Thread-7] HikariPool-2 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:11:47,911 DEBUG c.z.h.p.PoolBase [HikariPool-2 connection closer] HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@22c4cd2c: (connection evicted)
+2024-07-10 17:11:47,912 DEBUG c.z.h.p.PoolBase [HikariPool-2 connection closer] HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@67344446: (connection evicted)
+2024-07-10 17:11:47,913 DEBUG c.z.h.p.PoolBase [HikariPool-2 connection closer] HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@26094e7d: (connection evicted)
+2024-07-10 17:11:47,914 DEBUG c.z.h.p.PoolBase [HikariPool-2 connection closer] HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4626b132: (connection evicted)
+2024-07-10 17:11:47,914 DEBUG c.z.h.p.PoolBase [HikariPool-2 connection closer] HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@42688bb5: (connection evicted)
+2024-07-10 17:11:47,915 DEBUG c.z.h.p.PoolBase [HikariPool-2 connection closer] HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@73636ffc: (connection evicted)
+2024-07-10 17:11:47,917 DEBUG c.z.h.p.PoolBase [HikariPool-2 connection closer] HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74636a89: (connection evicted)
+2024-07-10 17:11:47,920 DEBUG c.z.h.p.PoolBase [HikariPool-2 connection closer] HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1862727a: (connection evicted)
+2024-07-10 17:11:47,921 DEBUG c.z.h.p.PoolBase [HikariPool-2 connection closer] HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@65d170ff: (connection evicted)
+2024-07-10 17:11:47,921 DEBUG c.z.h.p.PoolBase [HikariPool-2 connection closer] HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2982e26e: (connection evicted)
+2024-07-10 17:11:47,922 DEBUG c.z.h.p.HikariPool [Thread-7] HikariPool-2 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-07-10 17:11:47,923 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2024-07-10 17:11:48,025 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 17.0.11 with PID 14172 (C:\backup\workspace_sts4\demo_gradle\bin\main started by Notebook9 in C:\backup\workspace_sts4\demo_gradle)
+2024-07-10 17:11:48,025 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "local"
+2024-07-10 17:11:48,271 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-10 17:11:48,274 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2024-07-10 17:11:48,441 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-07-10 17:11:48,442 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:11:48,442 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-07-10 17:11:48,442 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 17:11:48,562 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-07-10 17:11:48,565 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-10 17:11:48,565 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 536 ms
+2024-07-10 17:11:48,635 DEBUG c.z.h.HikariConfig [restartedMain] Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@74352d67
+2024-07-10 17:11:48,791 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2024-07-10 17:11:48,937 INFO l.LogbackLoggerAOP [restartedMain] [[START]]upload.MyPathConfig.addResourceHandlers() <=================
+2024-07-10 17:11:48,937 INFO l.LogbackLoggerAOP [restartedMain] Argument/Parameter : [org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry@608b1586]
+2024-07-10 17:11:48,937 INFO l.LogbackLoggerAOP [restartedMain] ================[[END : addResourceHandlers()]]==================
+2024-07-10 17:11:49,111 DEBUG c.z.h.HikariConfig [restartedMain] HikariPool-3 - configuration:
+2024-07-10 17:11:49,112 DEBUG c.z.h.HikariConfig [restartedMain] allowPoolSuspension.............false
+2024-07-10 17:11:49,112 DEBUG c.z.h.HikariConfig [restartedMain] autoCommit......................true
+2024-07-10 17:11:49,113 DEBUG c.z.h.HikariConfig [restartedMain] catalog.........................none
+2024-07-10 17:11:49,113 DEBUG c.z.h.HikariConfig [restartedMain] connectionInitSql...............none
+2024-07-10 17:11:49,114 DEBUG c.z.h.HikariConfig [restartedMain] connectionTestQuery.............none
+2024-07-10 17:11:49,115 DEBUG c.z.h.HikariConfig [restartedMain] connectionTimeout...............30000
+2024-07-10 17:11:49,115 DEBUG c.z.h.HikariConfig [restartedMain] dataSource......................none
+2024-07-10 17:11:49,115 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceClassName.............none
+2024-07-10 17:11:49,116 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceJNDI..................none
+2024-07-10 17:11:49,116 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceProperties............{password=<masked>}
+2024-07-10 17:11:49,117 DEBUG c.z.h.HikariConfig [restartedMain] driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-07-10 17:11:49,117 DEBUG c.z.h.HikariConfig [restartedMain] exceptionOverrideClassName......none
+2024-07-10 17:11:49,117 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckProperties...........{}
+2024-07-10 17:11:49,117 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckRegistry.............none
+2024-07-10 17:11:49,117 DEBUG c.z.h.HikariConfig [restartedMain] idleTimeout.....................600000
+2024-07-10 17:11:49,118 DEBUG c.z.h.HikariConfig [restartedMain] initializationFailTimeout.......1
+2024-07-10 17:11:49,118 DEBUG c.z.h.HikariConfig [restartedMain] isolateInternalQueries..........false
+2024-07-10 17:11:49,118 DEBUG c.z.h.HikariConfig [restartedMain] jdbcUrl.........................jdbc:mysql://49.50.167.130:3306/naverdb
+2024-07-10 17:11:49,118 DEBUG c.z.h.HikariConfig [restartedMain] keepaliveTime...................0
+2024-07-10 17:11:49,118 DEBUG c.z.h.HikariConfig [restartedMain] leakDetectionThreshold..........0
+2024-07-10 17:11:49,119 DEBUG c.z.h.HikariConfig [restartedMain] maxLifetime.....................1800000
+2024-07-10 17:11:49,119 DEBUG c.z.h.HikariConfig [restartedMain] maximumPoolSize.................10
+2024-07-10 17:11:49,119 DEBUG c.z.h.HikariConfig [restartedMain] metricRegistry..................none
+2024-07-10 17:11:49,119 DEBUG c.z.h.HikariConfig [restartedMain] metricsTrackerFactory...........none
+2024-07-10 17:11:49,119 DEBUG c.z.h.HikariConfig [restartedMain] minimumIdle.....................10
+2024-07-10 17:11:49,120 DEBUG c.z.h.HikariConfig [restartedMain] password........................<masked>
+2024-07-10 17:11:49,120 DEBUG c.z.h.HikariConfig [restartedMain] poolName........................"HikariPool-3"
+2024-07-10 17:11:49,120 DEBUG c.z.h.HikariConfig [restartedMain] readOnly........................false
+2024-07-10 17:11:49,120 DEBUG c.z.h.HikariConfig [restartedMain] registerMbeans..................false
+2024-07-10 17:11:49,120 DEBUG c.z.h.HikariConfig [restartedMain] scheduledExecutor...............none
+2024-07-10 17:11:49,120 DEBUG c.z.h.HikariConfig [restartedMain] schema..........................none
+2024-07-10 17:11:49,121 DEBUG c.z.h.HikariConfig [restartedMain] threadFactory...................internal
+2024-07-10 17:11:49,121 DEBUG c.z.h.HikariConfig [restartedMain] transactionIsolation............default
+2024-07-10 17:11:49,121 DEBUG c.z.h.HikariConfig [restartedMain] username........................"naver"
+2024-07-10 17:11:49,121 DEBUG c.z.h.HikariConfig [restartedMain] validationTimeout...............5000
+2024-07-10 17:11:49,121 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2024-07-10 17:11:49,178 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f70a380
+2024-07-10 17:11:49,178 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2024-07-10 17:11:49,278 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-07-10 17:11:49,291 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:11:49,293 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-07-10 17:11:49,297 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-07-10 17:11:49,304 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 1.313 seconds (process running for 136.489)
+2024-07-10 17:11:49,305 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-07-10 17:11:49,349 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@620c9643
+2024-07-10 17:11:49,387 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-07-10 17:11:49,439 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23319c78
+2024-07-10 17:11:49,479 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-07-10 17:11:49,527 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12d879d0
+2024-07-10 17:11:49,559 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-07-10 17:11:49,606 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@431e6337
+2024-07-10 17:11:49,652 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-07-10 17:11:49,707 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@473f119
+2024-07-10 17:11:49,744 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-07-10 17:11:49,797 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47505c90
+2024-07-10 17:11:49,837 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-07-10 17:11:49,900 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29d534be
+2024-07-10 17:11:49,946 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-07-10 17:11:50,009 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27fc4887
+2024-07-10 17:11:50,054 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-07-10 17:11:50,105 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3aa2ec20
+2024-07-10 17:11:50,148 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:11:52,543 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-10 17:11:52,544 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-07-10 17:11:52,545 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-07-10 17:11:52,548 INFO s.NotificationController [http-nio-8080-exec-1] 컨트롤러 : 5
+2024-07-10 17:11:52,549 INFO s.EmitterRepository [http-nio-8080-exec-1] Saved SseEmitter for 5
+2024-07-10 17:11:52,549 INFO s.EmitterRepository [http-nio-8080-exec-1] Get SseEmitter for 5
+2024-07-10 17:11:57,983 INFO s.NotificationController [http-nio-8080-exec-2] 컨트롤러 : 5
+2024-07-10 17:11:57,983 INFO s.EmitterRepository [http-nio-8080-exec-2] Saved SseEmitter for 5
+2024-07-10 17:11:57,983 INFO s.EmitterRepository [http-nio-8080-exec-2] Get SseEmitter for 5
+2024-07-10 17:12:03,739 INFO s.NotificationController [http-nio-8080-exec-3] 컨트롤러 : 5
+2024-07-10 17:12:03,739 INFO s.EmitterRepository [http-nio-8080-exec-3] Saved SseEmitter for 5
+2024-07-10 17:12:03,739 INFO s.EmitterRepository [http-nio-8080-exec-3] Get SseEmitter for 5
+2024-07-10 17:12:05,391 INFO s.NotificationController [http-nio-8080-exec-4] 컨트롤러 : 5
+2024-07-10 17:12:05,391 INFO s.EmitterRepository [http-nio-8080-exec-4] Saved SseEmitter for 5
+2024-07-10 17:12:05,391 INFO s.EmitterRepository [http-nio-8080-exec-4] Get SseEmitter for 5
+2024-07-10 17:12:07,050 INFO s.NotificationController [http-nio-8080-exec-5] 컨트롤러 : 5
+2024-07-10 17:12:07,050 INFO s.EmitterRepository [http-nio-8080-exec-5] Saved SseEmitter for 5
+2024-07-10 17:12:07,050 INFO s.EmitterRepository [http-nio-8080-exec-5] Get SseEmitter for 5
+2024-07-10 17:12:16,433 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-10 17:12:16,434 INFO o.a.j.l.DirectJDKLog [Thread-11] Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:12:16,435 INFO s.EmitterRepository [http-nio-8080-exec-7] Deleted SseEmitter for 5
+2024-07-10 17:12:16,435 INFO s.EmitterRepository [http-nio-8080-exec-6] Deleted SseEmitter for 5
+2024-07-10 17:12:16,435 INFO s.EmitterRepository [http-nio-8080-exec-8] Deleted SseEmitter for 5
+2024-07-10 17:12:16,435 INFO s.EmitterRepository [http-nio-8080-exec-9] Deleted SseEmitter for 5
+2024-07-10 17:12:16,435 INFO s.EmitterRepository [http-nio-8080-exec-10] Deleted SseEmitter for 5
+2024-07-10 17:12:16,437 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-10] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:12:16,437 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-7] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:12:16,437 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-9] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:12:16,437 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-8] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:12:16,437 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:12:16,437 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:12:16,437 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:12:16,437 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-6] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:12:16,438 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:12:16,438 INFO s.EmitterRepository [http-nio-8080-exec-7] Deleted SseEmitter for 5
+2024-07-10 17:12:16,438 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:12:16,438 INFO s.EmitterRepository [http-nio-8080-exec-9] Deleted SseEmitter for 5
+2024-07-10 17:12:16,438 INFO s.EmitterRepository [http-nio-8080-exec-8] Deleted SseEmitter for 5
+2024-07-10 17:12:16,438 INFO s.EmitterRepository [http-nio-8080-exec-10] Deleted SseEmitter for 5
+2024-07-10 17:12:16,438 INFO s.EmitterRepository [http-nio-8080-exec-6] Deleted SseEmitter for 5
+2024-07-10 17:12:16,667 INFO c.z.h.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2024-07-10 17:12:16,667 DEBUG c.z.h.p.HikariPool [Thread-11] HikariPool-3 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:12:16,668 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4f70a380: (connection evicted)
+2024-07-10 17:12:16,668 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@620c9643: (connection evicted)
+2024-07-10 17:12:16,669 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@23319c78: (connection evicted)
+2024-07-10 17:12:16,669 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@12d879d0: (connection evicted)
+2024-07-10 17:12:16,670 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@431e6337: (connection evicted)
+2024-07-10 17:12:16,670 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@473f119: (connection evicted)
+2024-07-10 17:12:16,671 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@47505c90: (connection evicted)
+2024-07-10 17:12:16,671 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@29d534be: (connection evicted)
+2024-07-10 17:12:16,672 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@27fc4887: (connection evicted)
+2024-07-10 17:12:16,673 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3aa2ec20: (connection evicted)
+2024-07-10 17:12:16,674 DEBUG c.z.h.p.HikariPool [Thread-11] HikariPool-3 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-07-10 17:12:16,674 INFO c.z.h.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2024-07-10 17:12:16,779 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 17.0.11 with PID 14172 (C:\backup\workspace_sts4\demo_gradle\bin\main started by Notebook9 in C:\backup\workspace_sts4\demo_gradle)
+2024-07-10 17:12:16,780 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "local"
+2024-07-10 17:12:17,030 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-10 17:12:17,032 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2024-07-10 17:12:17,211 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-07-10 17:12:17,212 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:12:17,212 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-07-10 17:12:17,212 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 17:12:17,342 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-07-10 17:12:17,344 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-10 17:12:17,344 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 561 ms
+2024-07-10 17:12:17,417 DEBUG c.z.h.HikariConfig [restartedMain] Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3094c5e7
+2024-07-10 17:12:17,581 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2024-07-10 17:12:17,750 INFO l.LogbackLoggerAOP [restartedMain] [[START]]upload.MyPathConfig.addResourceHandlers() <=================
+2024-07-10 17:12:17,750 INFO l.LogbackLoggerAOP [restartedMain] Argument/Parameter : [org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry@7fe73b4e]
+2024-07-10 17:12:17,751 INFO l.LogbackLoggerAOP [restartedMain] ================[[END : addResourceHandlers()]]==================
+2024-07-10 17:12:17,949 DEBUG c.z.h.HikariConfig [restartedMain] HikariPool-4 - configuration:
+2024-07-10 17:12:17,950 DEBUG c.z.h.HikariConfig [restartedMain] allowPoolSuspension.............false
+2024-07-10 17:12:17,950 DEBUG c.z.h.HikariConfig [restartedMain] autoCommit......................true
+2024-07-10 17:12:17,950 DEBUG c.z.h.HikariConfig [restartedMain] catalog.........................none
+2024-07-10 17:12:17,950 DEBUG c.z.h.HikariConfig [restartedMain] connectionInitSql...............none
+2024-07-10 17:12:17,951 DEBUG c.z.h.HikariConfig [restartedMain] connectionTestQuery.............none
+2024-07-10 17:12:17,951 DEBUG c.z.h.HikariConfig [restartedMain] connectionTimeout...............30000
+2024-07-10 17:12:17,951 DEBUG c.z.h.HikariConfig [restartedMain] dataSource......................none
+2024-07-10 17:12:17,951 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceClassName.............none
+2024-07-10 17:12:17,951 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceJNDI..................none
+2024-07-10 17:12:17,951 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceProperties............{password=<masked>}
+2024-07-10 17:12:17,952 DEBUG c.z.h.HikariConfig [restartedMain] driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-07-10 17:12:17,952 DEBUG c.z.h.HikariConfig [restartedMain] exceptionOverrideClassName......none
+2024-07-10 17:12:17,952 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckProperties...........{}
+2024-07-10 17:12:17,952 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckRegistry.............none
+2024-07-10 17:12:17,952 DEBUG c.z.h.HikariConfig [restartedMain] idleTimeout.....................600000
+2024-07-10 17:12:17,952 DEBUG c.z.h.HikariConfig [restartedMain] initializationFailTimeout.......1
+2024-07-10 17:12:17,952 DEBUG c.z.h.HikariConfig [restartedMain] isolateInternalQueries..........false
+2024-07-10 17:12:17,953 DEBUG c.z.h.HikariConfig [restartedMain] jdbcUrl.........................jdbc:mysql://49.50.167.130:3306/naverdb
+2024-07-10 17:12:17,953 DEBUG c.z.h.HikariConfig [restartedMain] keepaliveTime...................0
+2024-07-10 17:12:17,953 DEBUG c.z.h.HikariConfig [restartedMain] leakDetectionThreshold..........0
+2024-07-10 17:12:17,953 DEBUG c.z.h.HikariConfig [restartedMain] maxLifetime.....................1800000
+2024-07-10 17:12:17,953 DEBUG c.z.h.HikariConfig [restartedMain] maximumPoolSize.................10
+2024-07-10 17:12:17,953 DEBUG c.z.h.HikariConfig [restartedMain] metricRegistry..................none
+2024-07-10 17:12:17,953 DEBUG c.z.h.HikariConfig [restartedMain] metricsTrackerFactory...........none
+2024-07-10 17:12:17,953 DEBUG c.z.h.HikariConfig [restartedMain] minimumIdle.....................10
+2024-07-10 17:12:17,954 DEBUG c.z.h.HikariConfig [restartedMain] password........................<masked>
+2024-07-10 17:12:17,954 DEBUG c.z.h.HikariConfig [restartedMain] poolName........................"HikariPool-4"
+2024-07-10 17:12:17,954 DEBUG c.z.h.HikariConfig [restartedMain] readOnly........................false
+2024-07-10 17:12:17,954 DEBUG c.z.h.HikariConfig [restartedMain] registerMbeans..................false
+2024-07-10 17:12:17,954 DEBUG c.z.h.HikariConfig [restartedMain] scheduledExecutor...............none
+2024-07-10 17:12:17,954 DEBUG c.z.h.HikariConfig [restartedMain] schema..........................none
+2024-07-10 17:12:17,954 DEBUG c.z.h.HikariConfig [restartedMain] threadFactory...................internal
+2024-07-10 17:12:17,954 DEBUG c.z.h.HikariConfig [restartedMain] transactionIsolation............default
+2024-07-10 17:12:17,954 DEBUG c.z.h.HikariConfig [restartedMain] username........................"naver"
+2024-07-10 17:12:17,954 DEBUG c.z.h.HikariConfig [restartedMain] validationTimeout...............5000
+2024-07-10 17:12:17,954 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2024-07-10 17:12:18,041 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43ce3c7
+2024-07-10 17:12:18,041 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2024-07-10 17:12:18,135 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-07-10 17:12:18,148 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-07-10 17:12:18,154 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:12:18,165 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-07-10 17:12:18,172 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 1.432 seconds (process running for 165.358)
+2024-07-10 17:12:18,176 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-07-10 17:12:18,207 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-4 connection adder] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37e87fa
+2024-07-10 17:12:18,238 DEBUG c.z.h.p.HikariPool [HikariPool-4 connection adder] HikariPool-4 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-07-10 17:12:18,294 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-4 connection adder] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42438dc1
+2024-07-10 17:12:18,334 DEBUG c.z.h.p.HikariPool [HikariPool-4 connection adder] HikariPool-4 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-07-10 17:12:18,387 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-4 connection adder] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73cb6b16
+2024-07-10 17:12:18,427 DEBUG c.z.h.p.HikariPool [HikariPool-4 connection adder] HikariPool-4 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-07-10 17:12:18,475 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-4 connection adder] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@226c728e
+2024-07-10 17:12:18,521 DEBUG c.z.h.p.HikariPool [HikariPool-4 connection adder] HikariPool-4 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-07-10 17:12:18,567 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-4 connection adder] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@652c6ec5
+2024-07-10 17:12:18,599 DEBUG c.z.h.p.HikariPool [HikariPool-4 connection adder] HikariPool-4 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-07-10 17:12:18,660 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-4 connection adder] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26222c4b
+2024-07-10 17:12:18,693 DEBUG c.z.h.p.HikariPool [HikariPool-4 connection adder] HikariPool-4 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-07-10 17:12:18,738 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-4 connection adder] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54e0bb1e
+2024-07-10 17:12:18,771 DEBUG c.z.h.p.HikariPool [HikariPool-4 connection adder] HikariPool-4 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-07-10 17:12:18,833 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-4 connection adder] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ae42841
+2024-07-10 17:12:18,864 DEBUG c.z.h.p.HikariPool [HikariPool-4 connection adder] HikariPool-4 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-07-10 17:12:18,908 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-4 connection adder] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c68e25f
+2024-07-10 17:12:18,941 DEBUG c.z.h.p.HikariPool [HikariPool-4 connection adder] HikariPool-4 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:12:19,390 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-10 17:12:19,391 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-07-10 17:12:19,392 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-07-10 17:12:19,395 INFO s.NotificationController [http-nio-8080-exec-1] 컨트롤러 : 5
+2024-07-10 17:12:19,395 INFO s.EmitterRepository [http-nio-8080-exec-1] Saved SseEmitter for 5
+2024-07-10 17:12:19,395 INFO s.EmitterRepository [http-nio-8080-exec-1] Get SseEmitter for 5
+2024-07-10 17:12:27,831 INFO s.NotificationController [http-nio-8080-exec-8] 컨트롤러 : 6
+2024-07-10 17:12:27,831 INFO s.EmitterRepository [http-nio-8080-exec-8] Saved SseEmitter for 6
+2024-07-10 17:12:27,832 INFO s.EmitterRepository [http-nio-8080-exec-8] Get SseEmitter for 6
+2024-07-10 17:12:33,723 INFO s.NotificationController [http-nio-8080-exec-9] 컨트롤러 : 6
+2024-07-10 17:12:33,723 INFO s.EmitterRepository [http-nio-8080-exec-9] Saved SseEmitter for 6
+2024-07-10 17:12:33,723 INFO s.EmitterRepository [http-nio-8080-exec-9] Get SseEmitter for 6
+2024-07-10 17:12:45,891 INFO s.NotificationController [http-nio-8080-exec-10] 컨트롤러 : 4
+2024-07-10 17:12:45,891 INFO s.EmitterRepository [http-nio-8080-exec-10] Saved SseEmitter for 4
+2024-07-10 17:12:45,891 INFO s.EmitterRepository [http-nio-8080-exec-10] Get SseEmitter for 4
+2024-07-10 17:12:48,151 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:12:48,151 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:13:18,155 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:13:18,155 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:13:48,165 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:13:48,165 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:13:49,923 INFO s.NotificationController [http-nio-8080-exec-6] 컨트롤러 : 1
+2024-07-10 17:13:49,923 INFO s.EmitterRepository [http-nio-8080-exec-6] Saved SseEmitter for 1
+2024-07-10 17:13:49,923 INFO s.EmitterRepository [http-nio-8080-exec-6] Get SseEmitter for 1
+2024-07-10 17:14:18,177 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:14:18,177 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:14:48,191 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:14:48,191 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:15:18,204 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:15:18,204 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:15:48,213 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:15:48,213 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:16:18,217 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:16:18,217 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:16:48,223 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:16:48,223 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:17:18,227 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:17:18,227 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:17:48,235 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:17:48,235 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:18:18,247 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:18:18,247 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:18:48,260 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:18:48,260 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:19:18,264 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:19:18,264 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:19:48,265 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:19:48,265 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:20:18,275 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:20:18,275 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:20:39,842 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: No acceptable representation]
+2024-07-10 17:20:48,280 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:20:48,280 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:21:18,281 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:21:18,281 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:21:48,293 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:21:48,293 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:22:18,294 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:22:18,294 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:22:41,889 INFO s.NotificationController [http-nio-8080-exec-4] 컨트롤러 : 1
+2024-07-10 17:22:41,890 INFO s.EmitterRepository [http-nio-8080-exec-4] Saved SseEmitter for 1
+2024-07-10 17:22:41,890 INFO s.EmitterRepository [http-nio-8080-exec-4] Get SseEmitter for 1
+2024-07-10 17:22:48,309 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:22:48,309 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:23:18,316 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:23:18,317 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:23:48,329 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:23:48,329 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:24:18,330 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:24:18,330 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:24:48,334 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:24:48,334 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:25:18,336 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:25:18,336 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:25:48,343 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:25:48,343 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:26:18,346 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:26:18,347 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:26:48,348 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:26:48,348 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:27:18,353 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:27:18,353 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:27:48,366 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:27:48,366 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:28:18,370 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:28:18,370 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:28:48,377 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:28:48,377 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:29:18,388 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:29:18,388 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:29:48,398 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:29:48,398 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:30:18,402 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:30:18,402 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:30:38,428 INFO s.NotificationController [http-nio-8080-exec-5] 컨트롤러 : 1
+2024-07-10 17:30:38,429 INFO s.EmitterRepository [http-nio-8080-exec-5] Saved SseEmitter for 1
+2024-07-10 17:30:38,429 INFO s.EmitterRepository [http-nio-8080-exec-5] Get SseEmitter for 1
+2024-07-10 17:30:48,410 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:30:48,410 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:31:18,424 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:31:18,424 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:31:48,427 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:31:48,427 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:31:58,019 INFO s.NotificationController [http-nio-8080-exec-9] 컨트롤러 : 1
+2024-07-10 17:31:58,020 INFO s.EmitterRepository [http-nio-8080-exec-9] Saved SseEmitter for 1
+2024-07-10 17:31:58,020 INFO s.EmitterRepository [http-nio-8080-exec-9] Get SseEmitter for 1
+2024-07-10 17:32:18,439 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:32:18,439 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:32:48,442 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:32:48,442 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:33:18,444 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:33:18,444 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:33:48,454 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:33:48,454 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:34:18,455 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:34:18,455 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:34:48,465 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:34:48,465 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:35:18,476 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:35:18,476 DEBUG c.z.h.p.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:35:39,944 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-10 17:35:39,945 INFO o.a.j.l.DirectJDKLog [Thread-15] Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:35:39,946 INFO s.EmitterRepository [http-nio-8080-exec-2] Deleted SseEmitter for 1
+2024-07-10 17:35:39,946 INFO s.EmitterRepository [http-nio-8080-exec-7] Deleted SseEmitter for 4
+2024-07-10 17:35:39,946 INFO s.EmitterRepository [http-nio-8080-exec-3] Deleted SseEmitter for 5
+2024-07-10 17:35:39,946 INFO s.EmitterRepository [http-nio-8080-exec-10] Deleted SseEmitter for 1
+2024-07-10 17:35:39,946 INFO s.EmitterRepository [http-nio-8080-exec-6] Deleted SseEmitter for 1
+2024-07-10 17:35:39,946 INFO s.EmitterRepository [http-nio-8080-exec-1] Deleted SseEmitter for 1
+2024-07-10 17:35:39,946 INFO s.EmitterRepository [http-nio-8080-exec-4] Deleted SseEmitter for 6
+2024-07-10 17:35:39,946 INFO s.EmitterRepository [http-nio-8080-exec-5] Deleted SseEmitter for 6
+2024-07-10 17:35:39,948 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-6] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:35:39,948 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-3] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:35:39,948 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-2] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:35:39,948 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-5] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:35:39,948 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-10] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:35:39,948 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-7] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:35:39,949 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:35:39,949 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-1] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:35:39,949 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:35:39,949 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:35:39,949 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:35:39,949 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:35:39,949 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:35:39,949 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:35:39,949 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-4] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:35:39,949 INFO s.EmitterRepository [http-nio-8080-exec-3] Deleted SseEmitter for 5
+2024-07-10 17:35:39,949 INFO s.EmitterRepository [http-nio-8080-exec-2] Deleted SseEmitter for 1
+2024-07-10 17:35:39,949 INFO s.EmitterRepository [http-nio-8080-exec-6] Deleted SseEmitter for 1
+2024-07-10 17:35:39,949 INFO s.EmitterRepository [http-nio-8080-exec-10] Deleted SseEmitter for 1
+2024-07-10 17:35:39,949 INFO s.EmitterRepository [http-nio-8080-exec-7] Deleted SseEmitter for 4
+2024-07-10 17:35:39,949 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:35:39,949 INFO s.EmitterRepository [http-nio-8080-exec-5] Deleted SseEmitter for 6
+2024-07-10 17:35:39,949 INFO s.EmitterRepository [http-nio-8080-exec-1] Deleted SseEmitter for 1
+2024-07-10 17:35:39,950 INFO s.EmitterRepository [http-nio-8080-exec-4] Deleted SseEmitter for 6
+2024-07-10 17:35:40,151 INFO c.z.h.HikariDataSource [Thread-15] HikariPool-4 - Shutdown initiated...
+2024-07-10 17:35:40,151 DEBUG c.z.h.p.HikariPool [Thread-15] HikariPool-4 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:35:40,152 DEBUG c.z.h.p.PoolBase [HikariPool-4 connection closer] HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@43ce3c7: (connection evicted)
+2024-07-10 17:35:40,152 DEBUG c.z.h.p.PoolBase [HikariPool-4 connection closer] HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@37e87fa: (connection evicted)
+2024-07-10 17:35:40,153 DEBUG c.z.h.p.PoolBase [HikariPool-4 connection closer] HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@42438dc1: (connection evicted)
+2024-07-10 17:35:40,153 DEBUG c.z.h.p.PoolBase [HikariPool-4 connection closer] HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@73cb6b16: (connection evicted)
+2024-07-10 17:35:40,154 DEBUG c.z.h.p.PoolBase [HikariPool-4 connection closer] HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@226c728e: (connection evicted)
+2024-07-10 17:35:40,154 DEBUG c.z.h.p.PoolBase [HikariPool-4 connection closer] HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@652c6ec5: (connection evicted)
+2024-07-10 17:35:40,154 DEBUG c.z.h.p.PoolBase [HikariPool-4 connection closer] HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@26222c4b: (connection evicted)
+2024-07-10 17:35:40,154 DEBUG c.z.h.p.PoolBase [HikariPool-4 connection closer] HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@54e0bb1e: (connection evicted)
+2024-07-10 17:35:40,155 DEBUG c.z.h.p.PoolBase [HikariPool-4 connection closer] HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5ae42841: (connection evicted)
+2024-07-10 17:35:40,155 DEBUG c.z.h.p.PoolBase [HikariPool-4 connection closer] HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3c68e25f: (connection evicted)
+2024-07-10 17:35:40,155 DEBUG c.z.h.p.HikariPool [Thread-15] HikariPool-4 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-07-10 17:35:40,155 INFO c.z.h.HikariDataSource [Thread-15] HikariPool-4 - Shutdown completed.
+2024-07-10 17:35:40,254 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 17.0.11 with PID 14172 (C:\backup\workspace_sts4\demo_gradle\bin\main started by Notebook9 in C:\backup\workspace_sts4\demo_gradle)
+2024-07-10 17:35:40,254 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "local"
+2024-07-10 17:35:40,452 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-10 17:35:40,454 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2024-07-10 17:35:40,615 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-07-10 17:35:40,615 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:35:40,615 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-07-10 17:35:40,615 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 17:35:40,753 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-07-10 17:35:40,756 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-10 17:35:40,758 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 501 ms
+2024-07-10 17:35:40,817 DEBUG c.z.h.HikariConfig [restartedMain] Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@19bfcf62
+2024-07-10 17:35:40,979 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2024-07-10 17:35:41,139 INFO l.LogbackLoggerAOP [restartedMain] [[START]]upload.MyPathConfig.addResourceHandlers() <=================
+2024-07-10 17:35:41,140 INFO l.LogbackLoggerAOP [restartedMain] Argument/Parameter : [org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry@56d085fa]
+2024-07-10 17:35:41,142 INFO l.LogbackLoggerAOP [restartedMain] ================[[END : addResourceHandlers()]]==================
+2024-07-10 17:35:41,296 DEBUG c.z.h.HikariConfig [restartedMain] HikariPool-5 - configuration:
+2024-07-10 17:35:41,297 DEBUG c.z.h.HikariConfig [restartedMain] allowPoolSuspension.............false
+2024-07-10 17:35:41,297 DEBUG c.z.h.HikariConfig [restartedMain] autoCommit......................true
+2024-07-10 17:35:41,297 DEBUG c.z.h.HikariConfig [restartedMain] catalog.........................none
+2024-07-10 17:35:41,297 DEBUG c.z.h.HikariConfig [restartedMain] connectionInitSql...............none
+2024-07-10 17:35:41,297 DEBUG c.z.h.HikariConfig [restartedMain] connectionTestQuery.............none
+2024-07-10 17:35:41,297 DEBUG c.z.h.HikariConfig [restartedMain] connectionTimeout...............30000
+2024-07-10 17:35:41,298 DEBUG c.z.h.HikariConfig [restartedMain] dataSource......................none
+2024-07-10 17:35:41,298 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceClassName.............none
+2024-07-10 17:35:41,298 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceJNDI..................none
+2024-07-10 17:35:41,298 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceProperties............{password=<masked>}
+2024-07-10 17:35:41,298 DEBUG c.z.h.HikariConfig [restartedMain] driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-07-10 17:35:41,298 DEBUG c.z.h.HikariConfig [restartedMain] exceptionOverrideClassName......none
+2024-07-10 17:35:41,298 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckProperties...........{}
+2024-07-10 17:35:41,298 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckRegistry.............none
+2024-07-10 17:35:41,299 DEBUG c.z.h.HikariConfig [restartedMain] idleTimeout.....................600000
+2024-07-10 17:35:41,299 DEBUG c.z.h.HikariConfig [restartedMain] initializationFailTimeout.......1
+2024-07-10 17:35:41,299 DEBUG c.z.h.HikariConfig [restartedMain] isolateInternalQueries..........false
+2024-07-10 17:35:41,299 DEBUG c.z.h.HikariConfig [restartedMain] jdbcUrl.........................jdbc:mysql://49.50.167.130:3306/naverdb
+2024-07-10 17:35:41,299 DEBUG c.z.h.HikariConfig [restartedMain] keepaliveTime...................0
+2024-07-10 17:35:41,299 DEBUG c.z.h.HikariConfig [restartedMain] leakDetectionThreshold..........0
+2024-07-10 17:35:41,299 DEBUG c.z.h.HikariConfig [restartedMain] maxLifetime.....................1800000
+2024-07-10 17:35:41,299 DEBUG c.z.h.HikariConfig [restartedMain] maximumPoolSize.................10
+2024-07-10 17:35:41,300 DEBUG c.z.h.HikariConfig [restartedMain] metricRegistry..................none
+2024-07-10 17:35:41,300 DEBUG c.z.h.HikariConfig [restartedMain] metricsTrackerFactory...........none
+2024-07-10 17:35:41,300 DEBUG c.z.h.HikariConfig [restartedMain] minimumIdle.....................10
+2024-07-10 17:35:41,300 DEBUG c.z.h.HikariConfig [restartedMain] password........................<masked>
+2024-07-10 17:35:41,300 DEBUG c.z.h.HikariConfig [restartedMain] poolName........................"HikariPool-5"
+2024-07-10 17:35:41,300 DEBUG c.z.h.HikariConfig [restartedMain] readOnly........................false
+2024-07-10 17:35:41,300 DEBUG c.z.h.HikariConfig [restartedMain] registerMbeans..................false
+2024-07-10 17:35:41,300 DEBUG c.z.h.HikariConfig [restartedMain] scheduledExecutor...............none
+2024-07-10 17:35:41,300 DEBUG c.z.h.HikariConfig [restartedMain] schema..........................none
+2024-07-10 17:35:41,301 DEBUG c.z.h.HikariConfig [restartedMain] threadFactory...................internal
+2024-07-10 17:35:41,301 DEBUG c.z.h.HikariConfig [restartedMain] transactionIsolation............default
+2024-07-10 17:35:41,301 DEBUG c.z.h.HikariConfig [restartedMain] username........................"naver"
+2024-07-10 17:35:41,301 DEBUG c.z.h.HikariConfig [restartedMain] validationTimeout...............5000
+2024-07-10 17:35:41,301 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2024-07-10 17:35:41,362 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16dcf440
+2024-07-10 17:35:41,362 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2024-07-10 17:35:41,458 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-07-10 17:35:41,470 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:35:41,474 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-07-10 17:35:41,476 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-07-10 17:35:41,484 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 1.268 seconds (process running for 1568.67)
+2024-07-10 17:35:41,487 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-07-10 17:35:41,525 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-5 connection adder] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13a67e1d
+2024-07-10 17:35:41,568 DEBUG c.z.h.p.HikariPool [HikariPool-5 connection adder] HikariPool-5 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-07-10 17:35:41,624 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-5 connection adder] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@529b7426
+2024-07-10 17:35:41,662 DEBUG c.z.h.p.HikariPool [HikariPool-5 connection adder] HikariPool-5 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-07-10 17:35:41,704 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-5 connection adder] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6383c2da
+2024-07-10 17:35:41,740 DEBUG c.z.h.p.HikariPool [HikariPool-5 connection adder] HikariPool-5 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-07-10 17:35:41,786 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-5 connection adder] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32b48b69
+2024-07-10 17:35:41,818 DEBUG c.z.h.p.HikariPool [HikariPool-5 connection adder] HikariPool-5 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-07-10 17:35:41,864 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-5 connection adder] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24934785
+2024-07-10 17:35:41,897 DEBUG c.z.h.p.HikariPool [HikariPool-5 connection adder] HikariPool-5 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-07-10 17:35:41,945 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-5 connection adder] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36fa557c
+2024-07-10 17:35:41,990 DEBUG c.z.h.p.HikariPool [HikariPool-5 connection adder] HikariPool-5 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-07-10 17:35:42,034 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-5 connection adder] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fccfe4b
+2024-07-10 17:35:42,068 DEBUG c.z.h.p.HikariPool [HikariPool-5 connection adder] HikariPool-5 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-07-10 17:35:42,117 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-5 connection adder] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50af3de3
+2024-07-10 17:35:42,161 DEBUG c.z.h.p.HikariPool [HikariPool-5 connection adder] HikariPool-5 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-07-10 17:35:42,205 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-5 connection adder] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60b84f64
+2024-07-10 17:35:42,240 DEBUG c.z.h.p.HikariPool [HikariPool-5 connection adder] HikariPool-5 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:35:42,319 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-10 17:35:42,320 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-07-10 17:35:42,320 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 0 ms
+2024-07-10 17:35:42,322 INFO s.NotificationController [http-nio-8080-exec-2] 컨트롤러 : 1
+2024-07-10 17:35:42,323 INFO s.EmitterRepository [http-nio-8080-exec-2] Saved SseEmitter for 1
+2024-07-10 17:35:42,323 INFO s.EmitterRepository [http-nio-8080-exec-2] Get SseEmitter for 1
+2024-07-10 17:36:11,490 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:36:11,490 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:36:41,495 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:36:41,495 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:37:11,508 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:37:11,508 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:37:41,517 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:37:41,517 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:38:11,520 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:38:11,520 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:38:41,526 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:38:41,526 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:38:46,778 INFO s.NotificationController [http-nio-8080-exec-5] 컨트롤러 : 1
+2024-07-10 17:38:46,779 INFO s.EmitterRepository [http-nio-8080-exec-5] Saved SseEmitter for 1
+2024-07-10 17:38:46,779 INFO s.EmitterRepository [http-nio-8080-exec-5] Get SseEmitter for 1
+2024-07-10 17:39:11,530 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:39:11,530 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:39:41,540 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:39:41,540 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:40:11,542 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:40:11,542 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:40:41,546 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:40:41,546 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:41:11,547 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:41:11,547 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:41:41,551 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:41:41,551 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:42:11,556 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:42:11,556 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:42:41,572 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:42:41,572 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:43:11,581 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:43:11,581 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:43:41,595 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:43:41,595 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:44:11,611 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:44:11,611 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:44:41,613 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:44:41,613 DEBUG c.z.h.p.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:45:05,475 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-10 17:45:05,476 INFO o.a.j.l.DirectJDKLog [Thread-19] Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:45:05,476 INFO s.EmitterRepository [http-nio-8080-exec-6] Deleted SseEmitter for 1
+2024-07-10 17:45:05,476 INFO s.EmitterRepository [http-nio-8080-exec-7] Deleted SseEmitter for 1
+2024-07-10 17:45:05,478 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-6] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:45:05,478 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-7] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:45:05,478 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:45:05,478 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:45:05,478 INFO s.EmitterRepository [http-nio-8080-exec-6] Deleted SseEmitter for 1
+2024-07-10 17:45:05,478 INFO s.EmitterRepository [http-nio-8080-exec-7] Deleted SseEmitter for 1
+2024-07-10 17:45:05,624 INFO c.z.h.HikariDataSource [Thread-19] HikariPool-5 - Shutdown initiated...
+2024-07-10 17:45:05,624 DEBUG c.z.h.p.HikariPool [Thread-19] HikariPool-5 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:45:05,625 DEBUG c.z.h.p.PoolBase [HikariPool-5 connection closer] HikariPool-5 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16dcf440: (connection evicted)
+2024-07-10 17:45:05,626 DEBUG c.z.h.p.PoolBase [HikariPool-5 connection closer] HikariPool-5 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13a67e1d: (connection evicted)
+2024-07-10 17:45:05,626 DEBUG c.z.h.p.PoolBase [HikariPool-5 connection closer] HikariPool-5 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@529b7426: (connection evicted)
+2024-07-10 17:45:05,626 DEBUG c.z.h.p.PoolBase [HikariPool-5 connection closer] HikariPool-5 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6383c2da: (connection evicted)
+2024-07-10 17:45:05,627 DEBUG c.z.h.p.PoolBase [HikariPool-5 connection closer] HikariPool-5 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@32b48b69: (connection evicted)
+2024-07-10 17:45:05,627 DEBUG c.z.h.p.PoolBase [HikariPool-5 connection closer] HikariPool-5 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@24934785: (connection evicted)
+2024-07-10 17:45:05,627 DEBUG c.z.h.p.PoolBase [HikariPool-5 connection closer] HikariPool-5 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@36fa557c: (connection evicted)
+2024-07-10 17:45:05,628 DEBUG c.z.h.p.PoolBase [HikariPool-5 connection closer] HikariPool-5 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@fccfe4b: (connection evicted)
+2024-07-10 17:45:05,628 DEBUG c.z.h.p.PoolBase [HikariPool-5 connection closer] HikariPool-5 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@50af3de3: (connection evicted)
+2024-07-10 17:45:05,628 DEBUG c.z.h.p.PoolBase [HikariPool-5 connection closer] HikariPool-5 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@60b84f64: (connection evicted)
+2024-07-10 17:45:05,629 DEBUG c.z.h.p.HikariPool [Thread-19] HikariPool-5 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-07-10 17:45:05,629 INFO c.z.h.HikariDataSource [Thread-19] HikariPool-5 - Shutdown completed.
+2024-07-10 17:45:05,730 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 17.0.11 with PID 14172 (C:\backup\workspace_sts4\demo_gradle\bin\main started by Notebook9 in C:\backup\workspace_sts4\demo_gradle)
+2024-07-10 17:45:05,730 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "local"
+2024-07-10 17:45:05,912 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-10 17:45:05,914 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2024-07-10 17:45:06,072 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-07-10 17:45:06,072 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:45:06,073 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-07-10 17:45:06,073 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 17:45:06,174 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-07-10 17:45:06,175 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-10 17:45:06,175 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 442 ms
+2024-07-10 17:45:06,231 DEBUG c.z.h.HikariConfig [restartedMain] Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@28f7009
+2024-07-10 17:45:06,385 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2024-07-10 17:45:06,525 INFO l.LogbackLoggerAOP [restartedMain] [[START]]upload.MyPathConfig.addResourceHandlers() <=================
+2024-07-10 17:45:06,526 INFO l.LogbackLoggerAOP [restartedMain] Argument/Parameter : [org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry@2979bbf6]
+2024-07-10 17:45:06,528 INFO l.LogbackLoggerAOP [restartedMain] ================[[END : addResourceHandlers()]]==================
+2024-07-10 17:45:06,695 DEBUG c.z.h.HikariConfig [restartedMain] HikariPool-6 - configuration:
+2024-07-10 17:45:06,696 DEBUG c.z.h.HikariConfig [restartedMain] allowPoolSuspension.............false
+2024-07-10 17:45:06,696 DEBUG c.z.h.HikariConfig [restartedMain] autoCommit......................true
+2024-07-10 17:45:06,696 DEBUG c.z.h.HikariConfig [restartedMain] catalog.........................none
+2024-07-10 17:45:06,696 DEBUG c.z.h.HikariConfig [restartedMain] connectionInitSql...............none
+2024-07-10 17:45:06,696 DEBUG c.z.h.HikariConfig [restartedMain] connectionTestQuery.............none
+2024-07-10 17:45:06,696 DEBUG c.z.h.HikariConfig [restartedMain] connectionTimeout...............30000
+2024-07-10 17:45:06,696 DEBUG c.z.h.HikariConfig [restartedMain] dataSource......................none
+2024-07-10 17:45:06,696 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceClassName.............none
+2024-07-10 17:45:06,697 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceJNDI..................none
+2024-07-10 17:45:06,697 DEBUG c.z.h.HikariConfig [restartedMain] dataSourceProperties............{password=<masked>}
+2024-07-10 17:45:06,697 DEBUG c.z.h.HikariConfig [restartedMain] driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-07-10 17:45:06,697 DEBUG c.z.h.HikariConfig [restartedMain] exceptionOverrideClassName......none
+2024-07-10 17:45:06,697 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckProperties...........{}
+2024-07-10 17:45:06,697 DEBUG c.z.h.HikariConfig [restartedMain] healthCheckRegistry.............none
+2024-07-10 17:45:06,697 DEBUG c.z.h.HikariConfig [restartedMain] idleTimeout.....................600000
+2024-07-10 17:45:06,698 DEBUG c.z.h.HikariConfig [restartedMain] initializationFailTimeout.......1
+2024-07-10 17:45:06,698 DEBUG c.z.h.HikariConfig [restartedMain] isolateInternalQueries..........false
+2024-07-10 17:45:06,698 DEBUG c.z.h.HikariConfig [restartedMain] jdbcUrl.........................jdbc:mysql://49.50.167.130:3306/naverdb
+2024-07-10 17:45:06,698 DEBUG c.z.h.HikariConfig [restartedMain] keepaliveTime...................0
+2024-07-10 17:45:06,698 DEBUG c.z.h.HikariConfig [restartedMain] leakDetectionThreshold..........0
+2024-07-10 17:45:06,698 DEBUG c.z.h.HikariConfig [restartedMain] maxLifetime.....................1800000
+2024-07-10 17:45:06,698 DEBUG c.z.h.HikariConfig [restartedMain] maximumPoolSize.................10
+2024-07-10 17:45:06,698 DEBUG c.z.h.HikariConfig [restartedMain] metricRegistry..................none
+2024-07-10 17:45:06,699 DEBUG c.z.h.HikariConfig [restartedMain] metricsTrackerFactory...........none
+2024-07-10 17:45:06,699 DEBUG c.z.h.HikariConfig [restartedMain] minimumIdle.....................10
+2024-07-10 17:45:06,699 DEBUG c.z.h.HikariConfig [restartedMain] password........................<masked>
+2024-07-10 17:45:06,699 DEBUG c.z.h.HikariConfig [restartedMain] poolName........................"HikariPool-6"
+2024-07-10 17:45:06,699 DEBUG c.z.h.HikariConfig [restartedMain] readOnly........................false
+2024-07-10 17:45:06,699 DEBUG c.z.h.HikariConfig [restartedMain] registerMbeans..................false
+2024-07-10 17:45:06,700 DEBUG c.z.h.HikariConfig [restartedMain] scheduledExecutor...............none
+2024-07-10 17:45:06,700 DEBUG c.z.h.HikariConfig [restartedMain] schema..........................none
+2024-07-10 17:45:06,700 DEBUG c.z.h.HikariConfig [restartedMain] threadFactory...................internal
+2024-07-10 17:45:06,700 DEBUG c.z.h.HikariConfig [restartedMain] transactionIsolation............default
+2024-07-10 17:45:06,700 DEBUG c.z.h.HikariConfig [restartedMain] username........................"naver"
+2024-07-10 17:45:06,700 DEBUG c.z.h.HikariConfig [restartedMain] validationTimeout...............5000
+2024-07-10 17:45:06,700 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2024-07-10 17:45:06,762 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@201a95ac
+2024-07-10 17:45:06,762 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2024-07-10 17:45:06,859 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-07-10 17:45:06,863 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-07-10 17:45:06,872 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:45:06,876 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-07-10 17:45:06,887 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 1.195 seconds (process running for 2134.073)
+2024-07-10 17:45:06,891 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-07-10 17:45:06,925 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-6 connection adder] HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@170b932
+2024-07-10 17:45:06,956 DEBUG c.z.h.p.HikariPool [HikariPool-6 connection adder] HikariPool-6 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-07-10 17:45:07,036 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-6 connection adder] HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@404db309
+2024-07-10 17:45:07,081 DEBUG c.z.h.p.HikariPool [HikariPool-6 connection adder] HikariPool-6 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-07-10 17:45:07,139 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-6 connection adder] HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7147d1f6
+2024-07-10 17:45:07,173 DEBUG c.z.h.p.HikariPool [HikariPool-6 connection adder] HikariPool-6 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-07-10 17:45:07,230 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-6 connection adder] HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20624c46
+2024-07-10 17:45:07,267 DEBUG c.z.h.p.HikariPool [HikariPool-6 connection adder] HikariPool-6 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-07-10 17:45:07,370 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-6 connection adder] HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48c2ae38
+2024-07-10 17:45:07,407 DEBUG c.z.h.p.HikariPool [HikariPool-6 connection adder] HikariPool-6 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-07-10 17:45:07,457 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-6 connection adder] HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@242c9085
+2024-07-10 17:45:07,501 DEBUG c.z.h.p.HikariPool [HikariPool-6 connection adder] HikariPool-6 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-07-10 17:45:07,546 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-6 connection adder] HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@569208c1
+2024-07-10 17:45:07,578 DEBUG c.z.h.p.HikariPool [HikariPool-6 connection adder] HikariPool-6 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-07-10 17:45:07,625 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-6 connection adder] HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7776e72f
+2024-07-10 17:45:07,657 DEBUG c.z.h.p.HikariPool [HikariPool-6 connection adder] HikariPool-6 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-07-10 17:45:07,704 DEBUG c.z.h.p.HikariPool$PoolEntryCreator [HikariPool-6 connection adder] HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c52e124
+2024-07-10 17:45:07,735 DEBUG c.z.h.p.HikariPool [HikariPool-6 connection adder] HikariPool-6 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:45:08,487 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-10 17:45:08,487 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-07-10 17:45:08,487 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-07-10 17:45:08,489 INFO s.NotificationController [http-nio-8080-exec-1] 컨트롤러 : 1
+2024-07-10 17:45:08,489 INFO s.EmitterRepository [http-nio-8080-exec-1] Saved SseEmitter for 1
+2024-07-10 17:45:08,489 INFO s.EmitterRepository [http-nio-8080-exec-1] Get SseEmitter for 1
+2024-07-10 17:45:36,876 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:45:36,876 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:46:06,891 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:46:06,891 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:46:36,905 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:46:36,905 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:47:06,906 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:47:06,906 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:47:36,921 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:47:36,921 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:48:06,937 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:48:06,937 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:48:36,949 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:48:36,949 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:49:06,961 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:49:06,961 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:49:36,963 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:49:36,963 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:50:06,970 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:50:06,970 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:50:36,972 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:50:36,972 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:51:06,972 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:51:06,972 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:51:36,982 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:51:36,982 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:52:06,999 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:52:07,001 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:52:37,008 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:52:37,008 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:53:07,024 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:53:07,025 DEBUG c.z.h.p.HikariPool [HikariPool-6 housekeeper] HikariPool-6 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-10 17:53:16,157 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-10 17:53:16,170 INFO o.a.j.l.DirectJDKLog [Thread-23] Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-10 17:53:16,171 INFO s.EmitterRepository [http-nio-8080-exec-2] Deleted SseEmitter for 1
+2024-07-10 17:53:16,173 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-2] Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-07-10 17:53:16,173 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-10 17:53:16,173 INFO s.EmitterRepository [http-nio-8080-exec-2] Deleted SseEmitter for 1
+2024-07-10 17:53:16,814 INFO c.z.h.HikariDataSource [Thread-23] HikariPool-6 - Shutdown initiated...
+2024-07-10 17:53:16,814 DEBUG c.z.h.p.HikariPool [Thread-23] HikariPool-6 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-07-10 17:53:16,864 DEBUG c.z.h.p.PoolBase [HikariPool-6 connection closer] HikariPool-6 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@201a95ac: (connection evicted)
+2024-07-10 17:53:16,865 DEBUG c.z.h.p.PoolBase [HikariPool-6 connection closer] HikariPool-6 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@170b932: (connection evicted)
+2024-07-10 17:53:16,866 DEBUG c.z.h.p.PoolBase [HikariPool-6 connection closer] HikariPool-6 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@404db309: (connection evicted)
+2024-07-10 17:53:16,867 DEBUG c.z.h.p.PoolBase [HikariPool-6 connection closer] HikariPool-6 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7147d1f6: (connection evicted)
+2024-07-10 17:53:16,867 DEBUG c.z.h.p.PoolBase [HikariPool-6 connection closer] HikariPool-6 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@20624c46: (connection evicted)
+2024-07-10 17:53:16,868 DEBUG c.z.h.p.PoolBase [HikariPool-6 connection closer] HikariPool-6 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@48c2ae38: (connection evicted)
+2024-07-10 17:53:16,869 DEBUG c.z.h.p.PoolBase [HikariPool-6 connection closer] HikariPool-6 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@242c9085: (connection evicted)
+2024-07-10 17:53:16,870 DEBUG c.z.h.p.PoolBase [HikariPool-6 connection closer] HikariPool-6 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@569208c1: (connection evicted)
+2024-07-10 17:53:16,870 DEBUG c.z.h.p.PoolBase [HikariPool-6 connection closer] HikariPool-6 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7776e72f: (connection evicted)
+2024-07-10 17:53:16,871 DEBUG c.z.h.p.PoolBase [HikariPool-6 connection closer] HikariPool-6 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5c52e124: (connection evicted)
+2024-07-10 17:53:16,871 DEBUG c.z.h.p.HikariPool [Thread-23] HikariPool-6 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-07-10 17:53:16,872 INFO c.z.h.HikariDataSource [Thread-23] HikariPool-6 - Shutdown completed.
+2024-07-10 17:53:17,017 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 17.0.11 with PID 14172 (C:\backup\workspace_sts4\demo_gradle\bin\main started by Notebook9 in C:\backup\workspace_sts4\demo_gradle)
+2024-07-10 17:53:17,017 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "local"
+2024-07-10 17:53:17,405 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-10 17:53:17,408 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
